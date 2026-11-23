@@ -480,6 +480,3 @@
     "explicacion": ""
   }
 ]
-```[cite: 43, 44, 45, 46, 47, 48]
-
-*(Nota: Como este PDF no incluye explicaciones debajo de cada pregunta[cite: 43, 44, 45, 46, 47, 48], he dejado el campo `"explicacion"` como cadena vacía `""` para mantener exactamente la misma estructura y que no te dé error al leerlo en tu HTML).*
