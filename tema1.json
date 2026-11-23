@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "pregunta": "Su característica principal es:",
+    "pregunta": "Su característica principal es:(La arquitectura de Von Neumann)",
     "opciones": [
       "Memorias separadas para datos e instrucciones",
       "Una única memoria para datos e instrucciones",
@@ -193,7 +193,7 @@
   },
   {
     "id": 17,
-    "pregunta": "En esta arquitectura, la memoria de instrucciones:",
+    "pregunta": "En esta arquitectura, la memoria de instrucciones:(La arquitectura Harvard)",
     "opciones": [
       "Guarda datos temporales",
       "Solo puede ser leída por la CPU",
