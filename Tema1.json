@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "pregunta": "La arquitectura de un ordenador hace referencia a:",
+    "opciones": [
+      "El tamaño físico del ordenador",
+      "El diseño y organización de sus componentes",
+      "El sistema operativo que utiliza",
+      "El número de usuarios conectados"
+    ],
+    "correcta": 1,
+    "explicacion": "La arquitectura define cómo están organizados los componentes internos."
+  },
+  {
+    "id": 2,
+    "pregunta": "Un periférico se define como:",
+    "opciones": [
+      "Todo componente indispensable del ordenador",
+      "Un dispositivo externo no esencial pero útil",
+      "La CPU y la memoria principal",
+      "El sistema de refrigeración"
+    ],
+    "correcta": 1,
+    "explicacion": "Un periférico no es esencial pero permite la interacción con el usuario o con otros sistemas."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál de las siguientes opciones es un periférico de entrada?",
+    "opciones": [
+      "Monitor",
+      "Teclado",
+      "Impresora",
+      "Altavoz"
+    ],
+    "correcta": 1,
+    "explicacion": "El teclado es un dispositivo que introduce información al sistema."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál de estos periféricos es de salida?",
+    "opciones": [
+      "Escáner",
+      "Ratón",
+      "Impresora",
+      "Micrófono"
+    ],
+    "correcta": 2,
+    "explicacion": "La impresora muestra información generada por el ordenador en papel."
+  },
+  {
+    "id": 5,
+    "pregunta": "La máquina de Turing fue propuesta en:",
+    "opciones": [
+      "1928",
+      "1936",
+      "1945",
+      "1950"
+    ],
+    "correcta": 1,
+    "explicacion": "Alan Turing la propuso en 1936 como modelo teórico de computación."
+  },
+  {
+    "id": 6,
+    "pregunta": "El elemento principal de la máquina de Turing es:",
+    "opciones": [
+      "Un microprocesador",
+      "Una cinta infinita dividida en celdas",
+      "Una memoria RAM",
+      "Un disco magnético"
+    ],
+    "correcta": 1,
+    "explicacion": "La cinta infinita permite representar cualquier cálculo."
+  },
+  {
+    "id": 7,
+    "pregunta": "El cabezal de la máquina de Turing puede:",
+    "opciones": [
+      "Solo leer datos",
+      "Solo escribir datos",
+      "Leer, escribir y moverse por la cinta",
+      "Almacenar programas"
+    ],
+    "correcta": 2,
+    "explicacion": "El cabezal puede leer, escribir y desplazarse, lo que permite simular cualquier algoritmo."
+  },
+  {
+    "id": 8,
+    "pregunta": "La importancia de la máquina de Turing radica en que:",
+    "opciones": [
+      "Fue el primer ordenador fabricado",
+      "Representa cualquier cálculo computable",
+      "Es la base del almacenamiento magnético",
+      "Sirve solo para resolver operaciones matemáticas"
+    ],
+    "correcta": 1,
+    "explicacion": "Demuestra que todo cálculo computable puede representarse en ella."
+  },
+  {
+    "id": 9,
+    "pregunta": "La arquitectura de Von Neumann fue propuesta en:",
+    "opciones": [
+      "1936",
+      "1940",
+      "1945",
+      "1955"
+    ],
+    "correcta": 2,
+    "explicacion": "Von Neumann propuso su arquitectura en 1945."
+  },
+  {
+    "id": 10,
+    "pregunta": "Su característica principal es:",
+    "opciones": [
+      "Memorias separadas para datos e instrucciones",
+      "Una única memoria para datos e instrucciones",
+      "No requiere unidad de control",
+      "Utiliza buses independientes"
+    ],
+    "correcta": 1,
+    "explicacion": "Se basa en una única memoria para instrucciones y datos."
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué componente interpreta las instrucciones del programa?",
+    "opciones": [
+      "Unidad Aritmético-Lógica (ALU)",
+      "Unidad de Control (CU)",
+      "Memoria principal",
+      "Periféricos"
+    ],
+    "correcta": 1,
+    "explicacion": "La Unidad de Control interpreta instrucciones y coordina la ejecución."
+  },
+  {
+    "id": 12,
+    "pregunta": "El bus de direcciones se encarga de:",
+    "opciones": [
+      "Transferir datos entre memoria y CPU",
+      "Especificar las direcciones de memoria",
+      "Coordinar y gestionar señales de control",
+      "Conectar los periféricos"
+    ],
+    "correcta": 1,
+    "explicacion": "El bus de direcciones indica la ubicación de memoria que se va a acceder."
+  },
+  {
+    "id": 13,
+    "pregunta": "El ciclo de instrucción comienza con:",
+    "opciones": [
+      "Decode",
+      "Execute",
+      "Fetch",
+      "Store"
+    ],
+    "correcta": 2,
+    "explicacion": "El ciclo comienza con la fase Fetch (captura de instrucción)."
+  },
+  {
+    "id": 14,
+    "pregunta": "Una ventaja de la arquitectura de Von Neumann es:",
+    "opciones": [
+      "Velocidad ilimitada",
+      "Simplicidad y flexibilidad",
+      "Buses independientes",
+      "Bajo consumo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es simple y flexible, facilitando su implementación."
+  },
+  {
+    "id": 15,
+    "pregunta": "El principal inconveniente de la arquitectura de Von Neumann es:",
+    "opciones": [
+      "Complejidad de diseño",
+      "Alto coste",
+      "El cuello de botella",
+      "Incompatibilidad de periféricos"
+    ],
+    "correcta": 2,
+    "explicacion": "El cuello de botella limita la velocidad por compartir un único bus."
+  },
+  {
+    "id": 16,
+    "pregunta": "La arquitectura Harvard se distingue porque:",
+    "opciones": [
+      "Usa un único bus de datos e instrucciones",
+      "Usa memorias y buses separados",
+      "No permite el paralelismo",
+      "No utiliza memoria de datos"
+    ],
+    "correcta": 1,
+    "explicacion": "La clave de Harvard es tener memorias separadas para datos e instrucciones."
+  },
+  {
+    "id": 17,
+    "pregunta": "En esta arquitectura, la memoria de instrucciones:",
+    "opciones": [
+      "Guarda datos temporales",
+      "Solo puede ser leída por la CPU",
+      "Almacena configuraciones del hardware",
+      "Sustituye al disco duro"
+    ],
+    "correcta": 1,
+    "explicacion": "La memoria de instrucciones está reservada para almacenar el programa."
+  },
+  {
+    "id": 18,
+    "pregunta": "Una ventaja de Harvard frente a Von Neumann es:",
+    "opciones": [
+      "Mayor rigidez",
+      "Menor rendimiento",
+      "Acceso simultáneo a datos e instrucciones",
+      "Menor seguridad"
+    ],
+    "correcta": 2,
+    "explicacion": "Harvard permite acceder en paralelo a datos e instrucciones."
+  },
+  {
+    "id": 19,
+    "pregunta": "Una desventaja de Harvard es:",
+    "opciones": [
+      "Simplicidad excesiva",
+      "Cuello de botella",
+      "Complejidad y coste de diseño",
+      "Lentitud en tiempo real"
+    ],
+    "correcta": 2,
+    "explicacion": "Es más compleja y costosa de implementar."
+  },
+  {
+    "id": 20,
+    "pregunta": "¿En qué sistemas es típica la arquitectura Harvard?",
+    "opciones": [
+      "Portátiles estándar",
+      "Microcontroladores y DSP",
+      "Servidores empresariales",
+      "Memorias ópticas"
+    ],
+    "correcta": 1,
+    "explicacion": "Harvard se usa en microcontroladores y procesadores digitales de señal."
+  },
+  {
+    "id": 21,
+    "pregunta": "La placa base se encarga de:",
+    "opciones": [
+      "Almacenar el sistema operativo",
+      "Interconectar todos los componentes",
+      "Proteger el procesador",
+      "Suministrar energía"
+    ],
+    "correcta": 1,
+    "explicacion": "Su función es conectar y coordinar todos los elementos."
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Cuál es el formato más habitual de placa base?",
+    "opciones": [
+      "ITX",
+      "ATX",
+      "MicroATX",
+      "NanoATX"
+    ],
+    "correcta": 1,
+    "explicacion": "La ATX es el estándar más usado en PCs."
+  },
+  {
+    "id": 23,
+    "pregunta": "Una fuente de alimentación ATX se caracteriza por:",
+    "opciones": [
+      "Ser muy compacta para miniPC",
+      "Usarse en servidores únicamente",
+      "Tener conectores de 24 pines y formato estándar",
+      "Tener siempre redundancia"
+    ],
+    "correcta": 2,
+    "explicacion": "La fuente ATX es estándar y cuenta con conectores de 24 pines."
+  },
+  {
+    "id": 24,
+    "pregunta": "Un dispositivo de almacenamiento magnético es:",
+    "opciones": [
+      "SSD",
+      "CD-ROM",
+      "Disco duro (HDD)",
+      "Pendrive"
+    ],
+    "correcta": 2,
+    "explicacion": "El HDD es un dispositivo magnético basado en platos y cabezales."
+  },
+  {
+    "id": 25,
+    "pregunta": "Un SSD es un:",
+    "opciones": [
+      "Dispositivo óptico",
+      "Dispositivo magnético",
+      "Dispositivo electrónico con memorias flash",
+      "Periférico de entrada"
+    ],
+    "correcta": 2,
+    "explicacion": "El SSD almacena datos en chips de memoria flash."
+  },
+  {
+    "id": 26,
+    "pregunta": "La principal desventaja de la RAM es:",
+    "opciones": [
+      "No se puede borrar",
+      "Es muy lenta",
+      "Es volátil (pierde datos al apagar)",
+      "Solo almacena programas"
+    ],
+    "correcta": 2,
+    "explicacion": "La RAM es volátil, se borra al apagar el ordenador."
+  },
+  {
+    "id": 27,
+    "pregunta": "Los módulos de RAM para portátiles son:",
+    "opciones": [
+      "DIMM",
+      "SO-DIMM",
+      "ATX",
+      "ITX"
+    ],
+    "correcta": 1,
+    "explicacion": "En portátiles se usan SO-DIMM por su tamaño reducido."
+  },
+  {
+    "id": 28,
+    "pregunta": "Los periféricos de entrada/salida (E/S) son:",
+    "opciones": [
+      "Solo teclados",
+      "Solo impresoras",
+      "Pantallas táctiles",
+      "Discos magnéticos"
+    ],
+    "correcta": 2,
+    "explicacion": "Un ejemplo de periférico E/S es la pantalla táctil."
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué tipo de periférico es una tarjeta de red?",
+    "opciones": [
+      "Entrada",
+      "Salida",
+      "Comunicación",
+      "Especializado"
+    ],
+    "correcta": 2,
+    "explicacion": "La tarjeta de red es un periférico de comunicación."
+  },
+  {
+    "id": 30,
+    "pregunta": "Un escáner es periférico de:",
+    "opciones": [
+      "Entrada",
+      "Salida",
+      "Almacenamiento",
+      "E/S"
+    ],
+    "correcta": 0,
+    "explicacion": "El escáner introduce información digitalizada al ordenador."
+  },
+  {
+    "id": 31,
+    "pregunta": "La LPRL (Ley 31/1995) tiene como objetivo:",
+    "opciones": [
+      "Promover la venta de equipos de oficina",
+      "Garantizar la seguridad y salud de los trabajadores",
+      "Regular el uso de software",
+      "Definir tipos de memoria RAM"
+    ],
+    "correcta": 1,
+    "explicacion": "Su fin es la seguridad y salud laboral."
+  },
+  {
+    "id": 32,
+    "pregunta": "El sistema PAS en emergencias significa:",
+    "opciones": [
+      "Prevenir, ayudar y solucionar",
+      "Proteger, avisar y socorrer",
+      "Predecir, atender y salvar",
+      "Prevenir, actuar y solucionar"
+    ],
+    "correcta": 1,
+    "explicacion": "PAS = Proteger, Avisar, Socorrer."
+  },
+  {
+    "id": 33,
+    "pregunta": "Un riesgo típico en informáticos es:",
+    "opciones": [
+      "Radiación solar",
+      "Fatiga visual",
+      "Exposición a químicos",
+      "Vibraciones"
+    ],
+    "correcta": 1,
+    "explicacion": "La fatiga visual es común por el uso prolongado de pantallas."
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Cuál de estas medidas es preventiva frente a la fatiga ocular?",
+    "opciones": [
+      "Usar luz tenue",
+      "La regla 20-20-20",
+      "Mirar solo la pantalla",
+      "No parpadear"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada 20 minutos mirar a 6 m durante 20 segundos."
+  },
+  {
+    "id": 35,
+    "pregunta": "El sedentarismo prolongado puede provocar:",
+    "opciones": [
+      "Obesidad y problemas cardiovasculares",
+      "Mayor agilidad mental",
+      "Mejora de la visión",
+      "Ningún efecto"
+    ],
+    "correcta": 0,
+    "explicacion": "La falta de movimiento afecta a la salud física."
+  },
+  {
+    "id": 36,
+    "pregunta": "Si un ordenador Dell emite 2 pitidos agudos al arrancar:",
+    "opciones": [
+      "Fallo en CPU",
+      "No detecta memoria RAM",
+      "Error de BIOS",
+      "Fallo en disco duro"
+    ],
+    "correcta": 1,
+    "explicacion": "En Dell, 2 pitidos indican error en la RAM."
+  },
+  {
+    "id": 37,
+    "pregunta": "Si falla la batería CMOS:",
+    "opciones": [
+      "El ordenador no arranca nunca",
+      "Se pierde la configuración del reloj y BIOS",
+      "La RAM no funciona",
+      "La CPU deja de ejecutar instrucciones"
+    ],
+    "correcta": 1,
+    "explicacion": "La CMOS guarda configuración básica; si falla, se pierde el reloj."
+  },
+  {
+    "id": 38,
+    "pregunta": "En el caso de Miriam y la impresora, el problema era:",
+    "opciones": [
+      "Conexión de cable defectuosa",
+      "Falta de controlador instalado",
+      "Fuente de alimentación dañada",
+      "Impresora incompatible"
+    ],
+    "correcta": 1,
+    "explicacion": "La impresora requería instalación del driver."
+  },
+  {
+    "id": 39,
+    "pregunta": "Para diagnosticar fallos en una placa base, un técnico debe:",
+    "opciones": [
+      "Probar con otra CPU",
+      "Revisar manual del fabricante para interpretar los pitidos",
+      "Instalar un nuevo sistema operativo",
+      "Cambiar la tarjeta gráfica"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada fabricante define pitidos de error en el manual."
+  },
+  {
+    "id": 40,
+    "pregunta": "El Administrador de dispositivos en Windows sirve para:",
+    "opciones": [
+      "Instalar juegos",
+      "Gestionar el estado y controladores de hardware",
+      "Optimizar la memoria RAM",
+      "Eliminar virus"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite verificar, habilitar o actualizar dispositivos."
+  }
+]

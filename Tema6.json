@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué tienen en común todas las distribuciones GNU/Linux?",
+    "opciones": [
+      "El mismo entorno gráfico",
+      "El mismo núcleo, el kernel de Linux",
+      "El mismo fabricante",
+      "La misma licencia de pago"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué distribución de Linux trata el tema como la más popular y estable?",
+    "opciones": [
+      "Fedora",
+      "Arch Linux",
+      "Ubuntu",
+      "Slackware"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué derivado de Ubuntu está pensado para entornos educativos?",
+    "opciones": [
+      "Xubuntu",
+      "Kubuntu",
+      "Ubuntu Studio",
+      "Edubuntu"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué entorno de escritorio usa Xubuntu?",
+    "opciones": [
+      "XFCE",
+      "KDE",
+      "GNOME",
+      "LXQt"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué derivado de Ubuntu es el más ligero, pensado para equipos con muy pocos recursos?",
+    "opciones": [
+      "Ubuntu Studio",
+      "Lubuntu",
+      "Kubuntu",
+      "Ubuntu MATE"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué derivado de Ubuntu está orientado a la edición de audio, vídeo y fotografía?",
+    "opciones": [
+      "Edubuntu",
+      "Xubuntu",
+      "Ubuntu Studio",
+      "Lubuntu"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué entorno de escritorio usa Ubuntu MATE?",
+    "opciones": [
+      "KDE Plasma",
+      "XFCE",
+      "LXQt",
+      "MATE, continuación de GNOME 2"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cuánta memoria RAM recomienda el tema para instalar Ubuntu?",
+    "opciones": [
+      "4 GB",
+      "512 MB",
+      "1 GB",
+      "32 GB"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Cuánto espacio libre en disco recomienda el tema para instalar Ubuntu?",
+    "opciones": [
+      "5 GB",
+      "25 GB",
+      "100 GB",
+      "500 GB"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué herramienta, recomendada por Ubuntu, sirve para crear un USB de arranque a partir de una ISO?",
+    "opciones": [
+      "Sysprep",
+      "Clonezilla",
+      "Rufus",
+      "Hardinfo"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué herramienta permite crear un USB de arranque y además descargar la distribución desde la propia aplicación?",
+    "opciones": [
+      "Rufus",
+      "Clonezilla",
+      "Hardinfo",
+      "UNetbootin"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 12,
+    "pregunta": "Antes de arrancar la instalación desde el USB, ¿qué hay que configurar en la BIOS/UEFI?",
+    "opciones": [
+      "El orden de arranque, para que arranque desde el USB",
+      "La hora del sistema",
+      "La contraseña de root",
+      "El idioma del teclado"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Cuántas particiones son necesarias como mínimo para instalar Ubuntu, según el tema?",
+    "opciones": [
+      "Ninguna",
+      "Una",
+      "Tres",
+      "Cinco"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué sistema de archivos se usa habitualmente en las distribuciones Linux actuales?",
+    "opciones": [
+      "NTFS",
+      "FAT32",
+      "ext4",
+      "exFAT"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 15,
+    "pregunta": "¿De qué sistema de archivos es una evolución ext4?",
+    "opciones": [
+      "NTFS",
+      "FAT16",
+      "HFS+",
+      "ext3"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué tamaño máximo de archivo individual admite ext4?",
+    "opciones": [
+      "16 TiB",
+      "2 GB",
+      "4 GB",
+      "2 TiB"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué técnica usa ext4 para asignar bloques y reducir la fragmentación?",
+    "opciones": [
+      "Clusters FAT",
+      "Extents",
+      "Journaling NTFS",
+      "RAID"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Dónde se configuran las actualizaciones en Ubuntu desde el entorno gráfico?",
+    "opciones": [
+      "En Configuración > Pantalla",
+      "En el Terminal > Preferencias",
+      "En Mostrar aplicaciones > Actualizaciones de software",
+      "En Archivos > Propiedades"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cómo se llaman los controladores que facilita el fabricante cuando Ubuntu no detecta un dispositivo?",
+    "opciones": [
+      "Controladores genéricos",
+      "Controladores libres",
+      "Controladores del kernel",
+      "Controladores privativos"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Dónde se revisan los controladores privativos en Ubuntu?",
+    "opciones": [
+      "En Actualizaciones de software > Más controladores",
+      "En el Administrador de dispositivos",
+      "En /home",
+      "En Configuración > Fondo"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué aplicación libre muestra información detallada del hardware en Ubuntu?",
+    "opciones": [
+      "Rufus",
+      "Hardinfo",
+      "Clonezilla",
+      "UNetbootin"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué herramienta de software libre se usa para crear imágenes de disco y desplegarlas en otros equipos?",
+    "opciones": [
+      "Sysprep",
+      "Rufus",
+      "Clonezilla",
+      "Hardinfo"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Cómo se llama el programa que interpreta los comandos que escribimos en el Terminal?",
+    "opciones": [
+      "Kernel",
+      "BIOS",
+      "Driver",
+      "Shell"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué hace el comando cd ..?",
+    "opciones": [
+      "Sube un nivel, al directorio padre",
+      "Va al directorio raíz",
+      "Borra el directorio actual",
+      "Muestra el contenido del directorio"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué comando muestra el contenido de un directorio?",
+    "opciones": [
+      "cd",
+      "ls",
+      "pwd",
+      "rm"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué comando muestra el nombre del equipo?",
+    "opciones": [
+      "whoami",
+      "uname",
+      "hostname",
+      "date"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Para qué sirve sudo?",
+    "opciones": [
+      "Para apagar el equipo",
+      "Para ver la fecha",
+      "Para cambiar de directorio",
+      "Para ejecutar un comando con privilegios de superusuario (root)"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué comando instala el reproductor VLC en Ubuntu?",
+    "opciones": [
+      "sudo apt-get install vlc",
+      "sudo install vlc",
+      "apt vlc --add",
+      "sudo get vlc"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué hace realmente sudo apt-get update?",
+    "opciones": [
+      "Instala todas las actualizaciones",
+      "Actualiza la lista de paquetes disponibles en los repositorios",
+      "Reinicia el sistema",
+      "Borra los paquetes antiguos"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué comando añade un usuario al grupo sudo para que pueda usar sudo?",
+    "opciones": [
+      "adduser sudo usuario",
+      "chmod sudo usuario",
+      "usermod -aG sudo usuario",
+      "passwd sudo usuario"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué comando comprueba si un equipo de la red responde?",
+    "opciones": [
+      "traceroute",
+      "telnet",
+      "exit",
+      "ping"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Con qué símbolo se representa el directorio raíz en Linux?",
+    "opciones": [
+      "/",
+      "\\",
+      "C:",
+      "~"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 33,
+    "pregunta": "¿En qué directorio están los archivos de configuración del sistema?",
+    "opciones": [
+      "/home",
+      "/etc",
+      "/tmp",
+      "/boot"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 34,
+    "pregunta": "¿En qué directorio guardan los usuarios normalmente sus archivos personales?",
+    "opciones": [
+      "/root",
+      "/usr",
+      "/home",
+      "/dev"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué directorio contiene archivos dinámicos como registros (logs) y cachés?",
+    "opciones": [
+      "/etc",
+      "/boot",
+      "/usr",
+      "/var"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué directorio contiene los archivos especiales de dispositivo para acceder al hardware?",
+    "opciones": [
+      "/dev",
+      "/run",
+      "/tmp",
+      "/home"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 37,
+    "pregunta": "En el caso práctico de la autoescuela, ¿qué tipo de cuenta debe crear Jesús para los alumnos?",
+    "opciones": [
+      "Administrador",
+      "Estándar",
+      "Root",
+      "Invitado con sudo"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué comando muestra la versión del kernel en uso?",
+    "opciones": [
+      "cat /etc/hostname",
+      "uptime",
+      "uname -r",
+      "ls /boot"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué fichero contiene la información de los procesadores del equipo?",
+    "opciones": [
+      "/etc/os-release",
+      "/var/log/cpu",
+      "/home/cpuinfo",
+      "/proc/cpuinfo"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué comando muestra en tiempo real el uso de CPU, memoria y los procesos en ejecución?",
+    "opciones": [
+      "top",
+      "ls",
+      "cd",
+      "ping"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  }
+]
+```[cite: 49, 50, 51, 52, 53, 54]
+
+*(Nota: En las preguntas 25 y 38 he corregido el fallo del OCR del documento que leía `Is` en lugar de `ls`)[cite: 52, 54].*

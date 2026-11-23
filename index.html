@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulacros de examen</title>
+<style>
+:root{color-scheme:dark;--bg:#10131a;--panel:#191f2b;--panel2:#222b3a;--text:#f2f5fa;--muted:#aab5c5;--accent:#79a7ff;--good:#43c78a;--bad:#ff7373;--line:#303b4d}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(140deg,#111827,#0d1118 65%);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh;padding:24px}
+.wrap{max-width:820px;margin:0 auto}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:22px}.brand{font-weight:800;font-size:1.15rem;letter-spacing:.2px}.pill{font-size:.78rem;color:#c6d8ff;background:#263a5d;padding:5px 10px;border-radius:99px}
+.card{background:rgba(25,31,43,.96);border:1px solid var(--line);border-radius:18px;padding:clamp(18px,4vw,30px);box-shadow:0 18px 50px #0003}
+h1{font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.15;margin:0 0 10px}h2{font-size:1.2rem;margin:0 0 14px}p{color:var(--muted);margin:7px 0 18px}
+button,.filebtn{border:0;border-radius:11px;padding:12px 17px;font:inherit;font-weight:700;cursor:pointer;transition:.15s}
+button:disabled{opacity:.4;cursor:not-allowed}.primary{background:var(--accent);color:#101827}.secondary,.filebtn{background:var(--panel2);color:var(--text);border:1px solid var(--line)}button:hover:not(:disabled),.filebtn:hover{filter:brightness(1.12);transform:translateY(-1px)}
+input[type=file]{display:none}label{display:block;color:var(--muted);font-size:.9rem;margin:14px 0 6px}
+select{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px;font:inherit}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.settings{display:flex;flex-wrap:wrap;gap:18px;margin:18px 0}.setting{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.92rem}
+.note{font-size:.85rem;color:var(--muted);margin-top:14px}.status{margin-top:14px;color:var(--good);font-size:.9rem}.hidden{display:none!important}
+.progressline{height:8px;background:#30394a;border-radius:99px;overflow:hidden;margin:12px 0 20px}.progressfill{height:100%;width:0;background:var(--accent);transition:width .2s}
+.meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:.88rem}.question{font-size:clamp(1.12rem,2.7vw,1.4rem);font-weight:700;margin:18px 0}
+.options{display:grid;gap:10px}.option{width:100%;display:flex;align-items:flex-start;gap:12px;text-align:left;background:var(--panel2);color:var(--text);border:1px solid var(--line);padding:14px;border-radius:12px;font-weight:500}.letter{flex:0 0 28px;height:28px;border-radius:8px;background:#35445d;display:grid;place-items:center;font-weight:800;color:#dce8ff}.option.selected{border-color:var(--accent);background:#263754}.option.correct{border-color:var(--good);background:#17382e}.option.wrong{border-color:var(--bad);background:#40252b}.feedback{margin-top:16px;padding:14px;border-radius:12px;background:var(--panel2);border:1px solid var(--line)}.feedback.good{border-color:#287e5b}.feedback.bad{border-color:#9b4545}
+.actions{display:flex;justify-content:space-between;gap:10px;margin-top:22px}.actions button{min-width:120px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}.stat{background:var(--panel2);border-radius:12px;padding:14px;text-align:center}.stat strong{display:block;font-size:1.7rem}.stat span{color:var(--muted);font-size:.85rem}
+.small{font-size:.83rem;color:var(--muted)}.error{color:#ff9292;margin-top:12px;white-space:pre-wrap}
+.topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}.topic{display:flex;align-items:center;gap:10px;padding:13px;background:var(--panel2);border:1px solid var(--line);border-radius:11px;cursor:pointer}.topic:has(input:checked){border-color:var(--good);background:#17382e}.topic input{width:18px;height:18px;accent-color:var(--good)}.topic span{font-weight:650}
+@media(max-width:520px){body{padding:12px}.top{align-items:flex-start}.actions button{min-width:0;flex:1}.stats{gap:6px}.stat{padding:10px 5px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><div class="brand">📝 Simulacros</div><div class="pill">Preguntas desde GitHub</div></header>
+
+  <section class="card" id="setup">
+    <h1>Prepara tu examen</h1>
+    <p>Elige los temas que quieras practicar. Las preguntas se cargarán automáticamente desde el repositorio.</p>
+    <h2 style="margin-top:22px">Temas disponibles</h2>
+    <div class="row" style="margin-bottom:12px">
+      <button class="secondary" type="button" id="selectAllBtn">Seleccionar todos</button>
+      <button class="secondary" type="button" id="clearAllBtn">Quitar selección</button>
+    </div>
+    <div id="topics" class="topics"></div>
+    <div id="fileStatus" class="status" aria-live="polite">Selecciona uno o varios temas.</div>
+    <div class="settings">
+      <div class="setting"><input id="shuffleQuestions" type="checkbox" checked><label for="shuffleQuestions" style="margin:0">Mezclar preguntas</label></div>
+      <div class="setting"><input id="shuffleOptions" type="checkbox" checked><label for="shuffleOptions" style="margin:0">Mezclar respuestas</label></div>
+      <div class="setting"><input id="instantCorrection" type="checkbox"><label for="instantCorrection" style="margin:0">Corregir al responder</label></div>
+    </div>
+    <div class="row"><button class="primary" id="startBtn" disabled>Crear simulacro</button></div>
+    <div class="note">Los archivos JSON deben estar en la misma carpeta que este <code>index.html</code> y llamarse <code>tema1.json</code>, <code>tema2.json</code>... hasta <code>tema7.json</code>. Cada archivo puede contener un array de preguntas o un objeto con la propiedad <code>preguntas</code>. El campo <code>correcta</code> usa índices desde 0: 0 = primera opción, 1 = segunda, etc.</div>
+    <div id="error" class="error"></div>
+  </section>
+
+  <section class="card hidden" id="quiz">
+    <div class="meta"><span id="counter">Pregunta 1 de 1</span><span id="scoreLive">Respondidas: 0</span></div>
+    <div class="progressline"><div class="progressfill" id="progress"></div></div>
+    <div class="small" id="questionId"></div>
+    <div class="question" id="questionText"></div>
+    <div class="options" id="options"></div>
+    <div id="feedback" class="feedback hidden" aria-live="polite"></div>
+    <div class="actions">
+      <button class="secondary" id="quitBtn">Salir</button>
+      <button class="primary" id="nextBtn" disabled>Siguiente →</button>
+    </div>
+    <div class="small" style="margin-top:12px">Puedes cambiar tu respuesta antes de pasar a la siguiente pregunta.</div>
+  </section>
+
+  <section class="card hidden" id="results">
+    <h1>Simulacro terminado</h1>
+    <p id="resultSubtitle">Este es tu resultado.</p>
+    <div class="stats">
+      <div class="stat"><strong id="correctCount">0</strong><span>Aciertos</span></div>
+      <div class="stat"><strong id="wrongCount">0</strong><span>Fallos</span></div>
+      <div class="stat"><strong id="blankCount">0</strong><span>En blanco</span></div>
+    </div>
+    <h2 id="grade"></h2>
+    <div class="row">
+      <button class="primary" id="retryBtn">Repetir simulacro</button>
+      <button class="secondary" id="wrongBtn">Repetir solo falladas</button>
+      <button class="secondary" id="newFileBtn">Cargar otro archivo</button>
+    </div>
+    <div id="review" style="margin-top:22px"></div>
+  </section>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+let sourceQuestions = [], quizQuestions = [], current = 0, answers = [], lastMode = "all";
+const TOPICS = Array.from({length:7}, (_,i) => ({id:i+1, name:`Tema ${i+1}`, url:`tema${i+1}.json`}));
+let selectedTopics = [];
+
+function shuffle(array) {
+  const a = [...array];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+function normalize(data) {
+  // Admite un array, un único objeto o un objeto con la propiedad "preguntas".
+  const list = Array.isArray(data) ? data : (Array.isArray(data?.preguntas) ? data.preguntas : [data]);
+  if (!list.length) throw new Error("El archivo no contiene preguntas.");
+  return list.map((q, i) => {
+    if (!q || typeof q.pregunta !== "string" || !Array.isArray(q.opciones) || q.opciones.length < 2)
+      throw new Error(`La pregunta ${i + 1} no tiene el formato esperado.`);
+    const correct = Number(q.correcta);
+    if (!Number.isInteger(correct) || correct < 0 || correct >= q.opciones.length)
+      throw new Error(`La pregunta ${i + 1} tiene un valor "correcta" inválido. Debe ser un índice desde 0.`);
+    if (!q.opciones.every(x => typeof x === "string")) throw new Error(`Las opciones de la pregunta ${i + 1} deben ser textos.`);
+    return {id: q.id ?? i + 1, pregunta: q.pregunta, opciones: q.opciones.map((texto, index) => ({texto, originalIndex:index})), correcta:correct, explicacion: q.explicacion || ""};
+  });
+}
+function renderTopics() {
+  const container = $("topics");
+  container.innerHTML = "";
+  TOPICS.forEach(topic => {
+    const label = document.createElement("label");
+    label.className = "topic";
+    const input = document.createElement("input");
+    input.type = "checkbox"; input.value = topic.id;
+    input.checked = selectedTopics.includes(topic.id);
+    input.addEventListener("change", () => {
+      selectedTopics = [...container.querySelectorAll("input:checked")].map(x => Number(x.value));
+      updateSelectionStatus();
+    });
+    const name = document.createElement("span"); name.textContent = topic.name;
+    label.append(input,name); container.appendChild(label);
+  });
+  updateSelectionStatus();
+}
+function updateSelectionStatus() {
+  $("startBtn").disabled = selectedTopics.length === 0;
+  $("fileStatus").textContent = selectedTopics.length
+    ? `${selectedTopics.length} tema(s) seleccionado(s): ${[...selectedTopics].sort((a,b)=>a-b).map(n=>`Tema ${n}`).join(", ")}`
+    : "Selecciona uno o varios temas.";
+}
+$("selectAllBtn").addEventListener("click", () => { selectedTopics = TOPICS.map(t=>t.id); renderTopics(); });
+$("clearAllBtn").addEventListener("click", () => { selectedTopics = []; renderTopics(); });
+async function loadSelectedTopics() {
+  $("error").textContent = "";
+  $("startBtn").disabled = true;
+  $("fileStatus").textContent = "Cargando preguntas desde GitHub...";
+  try {
+    const chosen = TOPICS.filter(t => selectedTopics.includes(t.id));
+    const loaded = await Promise.all(chosen.map(async topic => {
+      const response = await fetch(topic.url, {cache:"no-store"});
+      if (!response.ok) throw new Error(`No se pudo cargar ${topic.url} (HTTP ${response.status}). Comprueba que el archivo existe y que el nombre coincide.`);
+      const data = await response.json();
+      return {topic, questions: normalize(data)};
+    }));
+    sourceQuestions = loaded.flatMap(({topic, questions}) => questions.map((q,i) => ({...q, id:`T${topic.id}-${q.id ?? i+1}`, tema:topic.id})));
+    if (!sourceQuestions.length) throw new Error("Los temas seleccionados no contienen preguntas.");
+    $("fileStatus").textContent = `✓ ${sourceQuestions.length} preguntas cargadas de ${chosen.length} tema(s).`;
+    buildQuiz(sourceQuestions);
+  } catch (err) {
+    sourceQuestions = [];
+    $("fileStatus").textContent = "No se pudieron cargar los temas.";
+    $("error").textContent = "Error: " + err.message;
+    $("startBtn").disabled = selectedTopics.length === 0;
+  }
+}
+function buildQuiz(list) {
+  let qs = [...list];
+  if ($("shuffleQuestions").checked) qs = shuffle(qs);
+  quizQuestions = qs.map(q => {
+    const opts = $("shuffleOptions").checked ? shuffle(q.opciones) : [...q.opciones];
+    return {...q, opcionesMezcladas:opts, correctaMezclada:opts.findIndex(o => o.originalIndex === q.correcta)};
+  });
+  answers = Array(quizQuestions.length).fill(null);
+  current = 0;
+  $("setup").classList.add("hidden"); $("results").classList.add("hidden"); $("quiz").classList.remove("hidden");
+  renderQuestion();
+}
+function renderQuestion() {
+  const q = quizQuestions[current], chosen = answers[current];
+  $("counter").textContent = `Pregunta ${current+1} de ${quizQuestions.length}`;
+  $("scoreLive").textContent = `Respondidas: ${answers.filter(a => a !== null).length}`;
+  $("progress").style.width = `${((current+1)/quizQuestions.length)*100}%`;
+  $("questionId").textContent = `Pregunta ${q.id}`;
+  $("questionText").textContent = q.pregunta;
+  $("options").innerHTML = "";
+  q.opcionesMezcladas.forEach((opt, i) => {
+    const b = document.createElement("button");
+    b.className = "option" + (chosen === i ? " selected" : "");
+    b.innerHTML = `<span class="letter">${String.fromCharCode(65+i)}</span><span></span>`;
+    b.querySelector("span:last-child").textContent = opt.texto;
+    b.addEventListener("click", () => { answers[current] = i; renderQuestion(); });
+    $("options").appendChild(b);
+  });
+  const fb = $("feedback");
+  fb.className = "feedback hidden"; fb.textContent = "";
+  if (chosen !== null && $("instantCorrection").checked) showFeedback(q, chosen);
+  $("nextBtn").disabled = chosen === null;
+  $("nextBtn").textContent = current === quizQuestions.length-1 ? "Terminar ✓" : "Siguiente →";
+}
+function showFeedback(q, chosen) {
+  const fb = $("feedback"), ok = chosen === q.correctaMezclada;
+  fb.className = "feedback " + (ok ? "good" : "bad");
+  const title = document.createElement("strong");
+  title.textContent = ok ? "✓ ¡Correcto!" : "✗ No es correcto.";
+  const detail = document.createElement("div");
+  detail.style.marginTop = "5px";
+  detail.textContent = `Respuesta correcta: ${String.fromCharCode(65+q.correctaMezclada)}. ${q.opcionesMezcladas[q.correctaMezclada].texto}`;
+  fb.replaceChildren(title, detail);
+  if (q.explicacion) { const exp = document.createElement("div"); exp.style.marginTop="7px"; exp.textContent = q.explicacion; fb.appendChild(exp); }
+}
+$("startBtn").addEventListener("click", loadSelectedTopics);
+$("nextBtn").addEventListener("click", () => {
+  if (current < quizQuestions.length-1) {current++; renderQuestion();}
+  else finishQuiz();
+});
+$("quitBtn").addEventListener("click", () => {if(confirm("¿Quieres salir del simulacro? Perderás el progreso actual.")){ $("quiz").classList.add("hidden"); $("setup").classList.remove("hidden");}});
+function finishQuiz() {
+  $("quiz").classList.add("hidden"); $("results").classList.remove("hidden");
+  let correct=0, wrong=0, blank=0;
+  quizQuestions.forEach((q,i)=>{if(answers[i]===null)blank++;else if(answers[i]===q.correctaMezclada)correct++;else wrong++;});
+  $("correctCount").textContent=correct; $("wrongCount").textContent=wrong; $("blankCount").textContent=blank;
+  const grade = (correct/quizQuestions.length)*10;
+  $("grade").textContent=`Nota: ${grade.toFixed(2).replace(".",",")} / 10`;
+  $("resultSubtitle").textContent=`Has completado ${quizQuestions.length} preguntas (${Math.round(correct/quizQuestions.length*100)} % de aciertos).`;
+  $("wrongBtn").disabled = wrong===0;
+  const review=$("review"); review.innerHTML="<h2>Revisión de respuestas</h2>";
+  quizQuestions.forEach((q,i)=>{
+    const ok=answers[i]===q.correctaMezclada;
+    const box=document.createElement("div"); box.className="feedback "+(answers[i]===null?"":ok?"good":"bad"); box.style.marginBottom="10px";
+    const title=document.createElement("strong"); title.textContent=`${i+1}. ${q.pregunta}`;
+    const detail=document.createElement("div"); detail.style.marginTop="6px";
+    detail.textContent=answers[i]===null?"Sin responder":`Tu respuesta: ${String.fromCharCode(65+answers[i])}. ${q.opcionesMezcladas[answers[i]].texto}`;
+    const right=document.createElement("div"); right.textContent=`Correcta: ${String.fromCharCode(65+q.correctaMezclada)}. ${q.opcionesMezcladas[q.correctaMezclada].texto}`;
+    box.append(title,detail,right);
+    if(q.explicacion){const ex=document.createElement("div");ex.className="small";ex.style.marginTop="5px";ex.textContent=q.explicacion;box.appendChild(ex);}
+    review.appendChild(box);
+  });
+}
+$("retryBtn").addEventListener("click",()=>{lastMode="all";buildQuiz(sourceQuestions);});
+$("wrongBtn").addEventListener("click",()=>{const wrong=quizQuestions.filter((q,i)=>answers[i]!==null&&answers[i]!==q.correctaMezclada);lastMode="wrong";buildQuiz(wrong);});
+$("newFileBtn").addEventListener("click",()=>{$("results").classList.add("hidden");$("setup").classList.remove("hidden");sourceQuestions=[];updateSelectionStatus();});
+renderTopics();
+</script>
+</body>
+</html>

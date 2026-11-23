@@ -1,0 +1,483 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué es una máquina virtual (VM)?",
+    "opciones": [
+      "Un programa que elimina archivos duplicados",
+      "Un sistema operativo físico",
+      "Un entorno que simula un equipo informático completo",
+      "Un lenguaje de programación"
+    ],
+    "correcta": 2,
+    "explicacion": "Una VM permite ejecutar un sistema operativo simulado dentro de otro."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué componente principal permite ejecutar una máquina virtual?",
+    "opciones": [
+      "Antivirus",
+      "Hipervisor",
+      "Router",
+      "Firewall"
+    ],
+    "correcta": 1,
+    "explicacion": "El hipervisor gestiona las máquinas virtuales y asigna recursos del hardware."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué es la virtualización?",
+    "opciones": [
+      "Un método de compresión de archivos",
+      "La emulación de recursos de hardware mediante software",
+      "Un proceso de cifrado de datos",
+      "Una técnica de respaldo"
+    ],
+    "correcta": 1,
+    "explicacion": "La virtualización permite que un sistema emule otro hardware completo."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál de los siguientes NO es un tipo de virtualización?",
+    "opciones": [
+      "De red",
+      "De hardware",
+      "De aplicación",
+      "De teclado"
+    ],
+    "correcta": 3,
+    "explicacion": "El teclado no es un tipo de virtualización reconocido."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué función tiene un hipervisor?",
+    "opciones": [
+      "Gestionar las máquinas virtuales y los recursos del hardware",
+      "Cifrar la información del sistema",
+      "Crear redes seguras",
+      "Monitorear usuarios"
+    ],
+    "correcta": 0,
+    "explicacion": "El hipervisor coordina la comunicación entre la VM y el hardware físico."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué empresa desarrolla VirtualBox?",
+    "opciones": [
+      "Microsoft",
+      "Oracle",
+      "VMware",
+      "Ubuntu"
+    ],
+    "correcta": 1,
+    "explicacion": "VirtualBox pertenece a Oracle Corporation."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué es una imagen ISO?",
+    "opciones": [
+      "Un archivo de audio",
+      "Una copia exacta de un disco óptico",
+      "Un sistema de archivos comprimido",
+      "Un código de instalación"
+    ],
+    "correcta": 1,
+    "explicacion": "Es una imagen digital del contenido de un CD/DVD."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué recurso se puede asignar a una máquina virtual?",
+    "opciones": [
+      "Memoria RAM",
+      "Espacio en disco",
+      "Núcleos de CPU",
+      "Todas las anteriores"
+    ],
+    "correcta": 3,
+    "explicacion": "Todos estos recursos pueden configurarse al crear una VM."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué tipo de virtualización usa VMware Workstation?",
+    "opciones": [
+      "Virtualización de red",
+      "Virtualización de escritorio",
+      "Virtualización de hardware",
+      "Virtualización de procesos"
+    ],
+    "correcta": 2,
+    "explicacion": "VMware Workstation emula hardware virtual completo."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué se necesita para crear una máquina virtual en VirtualBox?",
+    "opciones": [
+      "Un archivo ISO o imagen del sistema operativo",
+      "Un pendrive vacío",
+      "Un programa de cifrado",
+      "Un compilador"
+    ],
+    "correcta": 0,
+    "explicacion": "Se usa una imagen ISO del sistema a instalar."
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué diferencia hay entre una VM y un equipo físico?",
+    "opciones": [
+      "La VM es más rápida",
+      "La VM no tiene hardware físico propio",
+      "La VM no requiere software",
+      "La VM no puede conectarse a internet"
+    ],
+    "correcta": 1,
+    "explicacion": "Las máquinas virtuales dependen del hardware del anfitrión."
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué opción de red permite que la VM tenga su propia IP dentro de la red local?",
+    "opciones": [
+      "NAT",
+      "Modo puente (Bridge)",
+      "Red interna",
+      "Adaptador solo anfitrión"
+    ],
+    "correcta": 1,
+    "explicacion": "El modo puente conecta la VM directamente a la red física."
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué opción de red permite a la VM acceder a internet usando la IP del anfitrión?",
+    "opciones": [
+      "Bridge",
+      "Interna",
+      "NAT",
+      "Ninguna"
+    ],
+    "correcta": 2,
+    "explicacion": "NAT traduce la IP de la VM a la del anfitrión."
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué ocurre si se asigna poca RAM a una máquina virtual?",
+    "opciones": [
+      "No podrá arrancar",
+      "Funcionará más lentamente",
+      "Aumentará la velocidad",
+      "No afectará al rendimiento"
+    ],
+    "correcta": 1,
+    "explicacion": "Si no tiene suficiente memoria, la VM funcionará con lentitud."
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué formato de disco utiliza por defecto VirtualBox?",
+    "opciones": [
+      ".vdi",
+      ".vhd",
+      ".vmdk",
+      ".iso"
+    ],
+    "correcta": 0,
+    "explicacion": "VirtualBox usa su propio formato de disco virtual, VDI."
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué formato de disco usa VMware por defecto?",
+    "opciones": [
+      ".vdi",
+      ".vhd",
+      ".vmdk",
+      ".ova"
+    ],
+    "correcta": 2,
+    "explicacion": "VMware utiliza discos virtuales con extensión VMDK."
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué significa el archivo OVA en virtualización?",
+    "opciones": [
+      "Una copia de seguridad",
+      "Un formato de exportación de máquinas virtuales",
+      "Un sistema operativo alternativo",
+      "Un script de instalación"
+    ],
+    "correcta": 1,
+    "explicacion": "El formato OVA incluye todos los archivos de la VM para exportación."
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué permite realizar un \"snapshot\"?",
+    "opciones": [
+      "Copiar archivos a otro disco",
+      "Guardar el estado actual de una máquina virtual",
+      "Conectarse a internet",
+      "Desfragmentar el disco"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite restaurar la VM a un punto anterior."
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué ventaja tiene un snapshot?",
+    "opciones": [
+      "Mejora el rendimiento de red",
+      "Permite volver atrás si algo falla",
+      "Instala actualizaciones automáticas",
+      "Aumenta la memoria"
+    ],
+    "correcta": 1,
+    "explicacion": "Es útil antes de realizar cambios importantes en la VM."
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué ocurre si se elimina una máquina virtual desde VirtualBox?",
+    "opciones": [
+      "Se borran los archivos del sistema anfitrión",
+      "El sistema operativo físico se reinicia",
+      "Se eliminan los discos virtuales asociados",
+      "No se borra nada"
+    ],
+    "correcta": 2,
+    "explicacion": "Eliminar la VM borra también sus archivos de disco virtual."
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué función cumple el \"Guest Additions\" en VirtualBox?",
+    "opciones": [
+      "Instalar controladores en el anfitrión",
+      "Mejorar la integración entre anfitrión y huésped",
+      "Eliminar archivos temporales",
+      "Cifrar la máquina"
+    ],
+    "correcta": 1,
+    "explicacion": "Mejora el rendimiento gráfico y la compatibilidad entre ambos sistemas."
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué requisito es indispensable para ejecutar una VM de 64 bits?",
+    "opciones": [
+      "Que el procesador tenga soporte de virtualización habilitado en BIOS",
+      "Tener más de 4 GB de RAM",
+      "Que el disco sea SSD",
+      "Que el sistema operativo sea de 32 bits"
+    ],
+    "correcta": 0,
+    "explicacion": "Sin VT-x o AMD-V activado, no se puede usar virtualización de 64 bits."
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué significa VT-x o AMD-V?",
+    "opciones": [
+      "Tecnologías de aceleración de red",
+      "Extensiones de hardware para virtualización",
+      "Tipos de discos duros",
+      "Protocolos de cifrado"
+    ],
+    "correcta": 1,
+    "explicacion": "Son tecnologías que permiten la virtualización acelerada por hardware."
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué sucede si la opción VT-x está deshabilitada en la BIOS?",
+    "opciones": [
+      "La máquina virtual no podrá iniciarse",
+      "No se podrá crear un usuario nuevo",
+      "El disco se fragmentará",
+      "El sistema no arrancará"
+    ],
+    "correcta": 0,
+    "explicacion": "Las VMs de 64 bits no se ejecutan sin esta opción activada."
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué se entiende por \"equipo anfitrión\"?",
+    "opciones": [
+      "El sistema operativo dentro de la VM",
+      "El hardware físico que ejecuta la máquina virtual",
+      "Una red compartida",
+      "El sistema operativo invitado"
+    ],
+    "correcta": 1,
+    "explicacion": "Es el equipo real donde se instalan las VMs."
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué se entiende por \"equipo invitado\"?",
+    "opciones": [
+      "El sistema operativo instalado dentro de la VM",
+      "El procesador principal",
+      "El servidor de red",
+      "La BIOS del anfitrión"
+    ],
+    "correcta": 0,
+    "explicacion": "Es el sistema operativo que funciona virtualizado."
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué ocurre si se sobreasignan recursos al crear una VM?",
+    "opciones": [
+      "El anfitrión funcionará con lentitud o inestabilidad",
+      "La VM funcionará más rápido",
+      "No se podrá guardar la configuración",
+      "No afectará al sistema"
+    ],
+    "correcta": 0,
+    "explicacion": "Asignar demasiados recursos puede afectar al rendimiento general."
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Cuál de las siguientes ventajas tiene la virtualización?",
+    "opciones": [
+      "Permite ejecutar varios sistemas en un mismo equipo",
+      "Reduce la compatibilidad",
+      "Aumenta el consumo de energía",
+      "Elimina el sistema operativo"
+    ],
+    "correcta": 0,
+    "explicacion": "Facilita ejecutar múltiples entornos sin hardware adicional."
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué inconveniente tiene la virtualización?",
+    "opciones": [
+      "Mejora la seguridad",
+      "Aumenta el rendimiento del hardware",
+      "Requiere más recursos del sistema",
+      "Elimina la redundancia"
+    ],
+    "correcta": 2,
+    "explicacion": "Consume CPU, RAM y almacenamiento del anfitrión."
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué recurso suele limitar el número de máquinas virtuales ejecutables simultáneamente?",
+    "opciones": [
+      "El procesador",
+      "El espacio en disco",
+      "La memoria RAM",
+      "La red"
+    ],
+    "correcta": 2,
+    "explicacion": "La RAM disponible determina cuántas VMs pueden ejecutarse a la vez."
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Qué sistema operativo se instala dentro de la máquina virtual?",
+    "opciones": [
+      "El mismo que el anfitrión",
+      "Cualquiera compatible con la arquitectura de la VM",
+      "Solo Linux",
+      "Solo Windows"
+    ],
+    "correcta": 1,
+    "explicacion": "Pueden instalarse diferentes sistemas operativos según la compatibilidad."
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué comando permite exportar una máquina virtual en VirtualBox?",
+    "opciones": [
+      "export machine",
+      "vboxmanage export",
+      "save vm",
+      "copy vm"
+    ],
+    "correcta": 1,
+    "explicacion": "Este comando exporta una VM a formato .ova o .ovf."
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué es VMware Player?",
+    "opciones": [
+      "Una versión de prueba de Windows",
+      "Un hipervisor gratuito de VMware",
+      "Un software de edición de video",
+      "Una herramienta para antivirus"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite ejecutar VMs sin funciones avanzadas de VMware Pro."
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué opción permite compartir carpetas entre anfitrión e invitado?",
+    "opciones": [
+      "Red privada",
+      "Carpetas compartidas (Shared Folders)",
+      "Snapshots",
+      "DHCP"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite intercambiar archivos fácilmente entre ambos sistemas."
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué se debe hacer para acceder al portapapeles del anfitrión desde la VM?",
+    "opciones": [
+      "Instalar Guest Additions",
+      "Activar cifrado",
+      "Reiniciar la VM",
+      "Usar NAT"
+    ],
+    "correcta": 0,
+    "explicacion": "Guest Additions habilita funciones como el portapapeles compartido."
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué es el archivo .vbox en VirtualBox?",
+    "opciones": [
+      "Un log de errores",
+      "Un archivo de configuración de la máquina virtual",
+      "Una copia de seguridad",
+      "Un disco virtual"
+    ],
+    "correcta": 1,
+    "explicacion": "Contiene la configuración general de la máquina virtual."
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué extensión usa VirtualBox para exportar una VM completa?",
+    "opciones": [
+      ".ova",
+      ".iso",
+      ".zip",
+      ".vmdk"
+    ],
+    "correcta": 0,
+    "explicacion": "El formato OVA se usa para importar/exportar máquinas completas."
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué puede hacerse desde el menú \"Configuración\" de VirtualBox?",
+    "opciones": [
+      "Asignar memoria RAM y CPU",
+      "Configurar red y almacenamiento",
+      "Montar unidades ópticas",
+      "Todas las anteriores"
+    ],
+    "correcta": 3,
+    "explicacion": "Es el panel de control principal de la VM."
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué característica permite ejecutar una VM dentro de otra VM?",
+    "opciones": [
+      "Doble NAT",
+      "Virtualización anidada",
+      "Snapshot dual",
+      "Multinúcleo"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite ejecutar hipervisores dentro de máquinas virtuales."
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué sucede si una máquina virtual se corrompe?",
+    "opciones": [
+      "Afecta directamente al sistema anfitrión",
+      "Solo se pierde la VM, no el sistema físico",
+      "El equipo físico no podrá arrancar",
+      "Se borran los archivos compartidos"
+    ],
+    "correcta": 1,
+    "explicacion": "Las VMs están aisladas del sistema anfitrión."
+  }
+]
+```[cite: 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]

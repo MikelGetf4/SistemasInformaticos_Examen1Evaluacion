@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué componente del sistema operativo se comunica directamente con el hardware?",
+    "opciones": [
+      "Interfaz gráfica",
+      "Núcleo (kernel)",
+      "Servicios",
+      "BIOS"
+    ],
+    "correcta": 1,
+    "explicacion": "El kernel gestiona CPU, memoria y dispositivos, interactuando con el hardware."
+  },
+  {
+    "id": 2,
+    "pregunta": "La estructura que organiza el sistema en niveles jerárquicos es...",
+    "opciones": [
+      "Monolítica",
+      "Jerárquica",
+      "En anillos",
+      "Cliente-servidor"
+    ],
+    "correcta": 1,
+    "explicacion": "En la estructura jerárquica cada nivel solo interactúa con el superior e inferior."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál de las siguientes estructuras de SO ofrece mayor protección mediante zonas concéntricas?",
+    "opciones": [
+      "Jerárquica",
+      "En anillos",
+      "Monolítica",
+      "Virtualizada"
+    ],
+    "correcta": 1,
+    "explicacion": "Los anillos definen niveles de privilegio, protegiendo el núcleo en el anillo interno."
+  },
+  {
+    "id": 4,
+    "pregunta": "La estructura cliente-servidor se caracteriza por...",
+    "opciones": [
+      "Ejecutar todo en modo kernel",
+      "Dividir el sistema en módulos jerárquicos",
+      "Separar servidores que prestan servicios y clientes que los consumen",
+      "Organizar en anillos concéntricos"
+    ],
+    "correcta": 2,
+    "explicacion": "Los servidores ofrecen recursos/servicios y los clientes los solicitan."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué estructura permite simular varios sistemas en un único hardware físico?",
+    "opciones": [
+      "Virtualizada",
+      "Jerárquica",
+      "Cliente-servidor",
+      "En anillos"
+    ],
+    "correcta": 0,
+    "explicacion": "La virtualización emula máquinas completas sobre el mismo hardware."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Cuál es la función principal del núcleo del sistema operativo?",
+    "opciones": [
+      "Dibujar ventanas",
+      "Gestionar el hardware y recursos del sistema",
+      "Editar archivos de usuario",
+      "Ejecutar programas de usuario sin intermediación"
+    ],
+    "correcta": 1,
+    "explicacion": "El kernel arbitra CPU, memoria, E/S y acceso a dispositivos."
+  },
+  {
+    "id": 7,
+    "pregunta": "Las funciones de control de un sistema operativo incluyen...",
+    "opciones": [
+      "Optimizar recursos y mantener software",
+      "Planificar CPU, gestionar memoria y controlar procesos",
+      "Personalizar la interfaz gráfica",
+      "Actualizar aplicaciones externas"
+    ],
+    "correcta": 1,
+    "explicacion": "Control se ocupa de asignación de recursos, procesos e interrupciones."
+  },
+  {
+    "id": 8,
+    "pregunta": "La planificación de CPU forma parte de...",
+    "opciones": [
+      "Funciones de explotación",
+      "Funciones de control",
+      "Funciones de usuario",
+      "Funciones gráficas"
+    ],
+    "correcta": 1,
+    "explicacion": "La planificación decide qué proceso usa la CPU y cuándo."
+  },
+  {
+    "id": 9,
+    "pregunta": "La sincronización y comunicación entre procesos es una tarea de...",
+    "opciones": [
+      "Control de procesos",
+      "Control de E/S",
+      "Gestión de permisos",
+      "Mantenimiento"
+    ],
+    "correcta": 0,
+    "explicacion": "IPC y sincronización pertenecen a la gestión de procesos."
+  },
+  {
+    "id": 10,
+    "pregunta": "La gestión de interrupciones y drivers pertenece a...",
+    "opciones": [
+      "Gestión de archivos",
+      "Control de entrada/salida",
+      "Funciones de explotación",
+      "Funciones de usuario"
+    ],
+    "correcta": 1,
+    "explicacion": "E/S incluye interrupciones, colas y controladores de dispositivos."
+  },
+  {
+    "id": 11,
+    "pregunta": "La actualización y diagnóstico de problemas son ejemplos de...",
+    "opciones": [
+      "Funciones de control",
+      "Funciones de explotación",
+      "Funciones de usuario",
+      "Control de procesos"
+    ],
+    "correcta": 1,
+    "explicacion": "Explotación optimiza, mantiene y supervisa el sistema."
+  },
+  {
+    "id": 12,
+    "pregunta": "Ajustar parámetros del sistema para mejorar el rendimiento pertenece a...",
+    "opciones": [
+      "Control de procesos",
+      "Control de E/S",
+      "Explotación",
+      "Interfaz gráfica"
+    ],
+    "correcta": 2,
+    "explicacion": "El tuning y monitorización son tareas de explotación."
+  },
+  {
+    "id": 13,
+    "pregunta": "La gestión de archivos y sistemas de archivos incluye...",
+    "opciones": [
+      "Organización y mantenimiento de archivos",
+      "Planificación de CPU",
+      "Control de interrupciones",
+      "Configuración del kernel"
+    ],
+    "correcta": 0,
+    "explicacion": "El SO organiza, protege y mantiene ficheros y directorios."
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué tipo de SO permite a varios usuarios utilizar recursos simultáneamente?",
+    "opciones": [
+      "Monousuario",
+      "Multiusuario",
+      "Monotarea",
+      "Uniprocesador"
+    ],
+    "correcta": 1,
+    "explicacion": "Multiusuario gestiona sesiones concurrentes y permisos."
+  },
+  {
+    "id": 15,
+    "pregunta": "Un sistema operativo monotarea...",
+    "opciones": [
+      "Ejecuta varios procesos a la vez",
+      "Soporta multiprocesadores",
+      "Ejecuta un único proceso cada vez",
+      "Gestiona varios núcleos"
+    ],
+    "correcta": 2,
+    "explicacion": "Solo permite una tarea activa simultánea."
+  },
+  {
+    "id": 16,
+    "pregunta": "Los sistemas multiprocesador están diseñados para...",
+    "opciones": [
+      "Ejecutar un solo proceso en una CPU",
+      "Usar múltiples CPUs en paralelo",
+      "Ejecutar solo tareas gráficas",
+      "Trabajar en modo monousuario"
+    ],
+    "correcta": 1,
+    "explicacion": "Distribuyen procesos/hilos entre varios núcleos o CPUs."
+  },
+  {
+    "id": 17,
+    "pregunta": "Un sistema distribuido...",
+    "opciones": [
+      "Se ejecuta en un único equipo",
+      "Une varios nodos formando un único sistema funcional",
+      "Es siempre monousuario",
+      "No permite compartir recursos"
+    ],
+    "correcta": 1,
+    "explicacion": "Varios equipos coordinados ofrecen servicios como si fueran uno."
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué clasificación corresponde a \"centralizados vs distribuidos\"?",
+    "opciones": [
+      "Administración de recursos",
+      "Servicios ofrecidos",
+      "Número de tareas",
+      "Tipo de procesadores"
+    ],
+    "correcta": 1,
+    "explicacion": "Clasifica según cómo se prestan/gestionan los servicios."
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Cuál de los siguientes es un sistema operativo \"live\" o ejecutable?",
+    "opciones": [
+      "Windows instalado en disco duro",
+      "Ubuntu ejecutado desde USB sin instalación",
+      "Windows Server en red",
+      "Linux en máquina virtual"
+    ],
+    "correcta": 1,
+    "explicacion": "Un \"live\" arranca y funciona desde un medio extraíble sin instalar."
+  },
+  {
+    "id": 20,
+    "pregunta": "Los sistemas operativos instalables...",
+    "opciones": [
+      "Se ejecutan desde medios extraíbles sin instalación",
+      "Requieren instalación en disco antes de arrancar",
+      "Son exclusivamente libres",
+      "No necesitan configuración"
+    ],
+    "correcta": 1,
+    "explicacion": "Deben copiarse e integrarse en el disco para poder iniciar."
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué interfaz permite interacción con el sistema mediante comandos de texto?",
+    "opciones": [
+      "GUI",
+      "CLI",
+      "API",
+      "BIOS"
+    ],
+    "correcta": 1,
+    "explicacion": "La CLI (Command Line Interface) permite controlar el sistema con comandos."
+  },
+  {
+    "id": 22,
+    "pregunta": "El símbolo del sistema en Windows (cmd)...",
+    "opciones": [
+      "Solo permite abrir carpetas",
+      "No requiere privilegios de administrador para nada",
+      "Permite ejecutar comandos y administrar tareas",
+      "Es solo gráfico"
+    ],
+    "correcta": 2,
+    "explicacion": "cmd es una CLI para ejecutar comandos, scripts y tareas de administración."
+  },
+  {
+    "id": 23,
+    "pregunta": "El comando dir sirve para...",
+    "opciones": [
+      "Cambiar de carpeta",
+      "Mostrar el contenido de un directorio",
+      "Mostrar configuración IP",
+      "Formatear una unidad"
+    ],
+    "correcta": 1,
+    "explicacion": "dir lista archivos y carpetas del directorio actual."
+  },
+  {
+    "id": 24,
+    "pregunta": "El comando ipconfig muestra...",
+    "opciones": [
+      "Contenido de carpetas",
+      "Configuración de red",
+      "Nombre de usuario",
+      "Procesos en ejecución"
+    ],
+    "correcta": 1,
+    "explicacion": "ipconfig muestra IP, máscara, puerta de enlace, etc."
+  },
+  {
+    "id": 25,
+    "pregunta": "El comando hostname permite...",
+    "opciones": [
+      "Mostrar el nombre del equipo",
+      "Cambiar de carpeta",
+      "Mostrar configuración IP",
+      "Salir de la terminal"
+    ],
+    "correcta": 0,
+    "explicacion": "Devuelve el nombre asignado al host."
+  },
+  {
+    "id": 26,
+    "pregunta": "El comando cd sirve para...",
+    "opciones": [
+      "Mostrar contenido de carpetas",
+      "Movernos entre carpetas",
+      "Mostrar IP",
+      "Cerrar cmd"
+    ],
+    "correcta": 1,
+    "explicacion": "cd (change directory) cambia el directorio actual."
+  },
+  {
+    "id": 27,
+    "pregunta": "El comando shutdown...",
+    "opciones": [
+      "Muestra la red",
+      "Apaga el ordenador",
+      "Cambia nombre del equipo",
+      "Elimina archivos"
+    ],
+    "correcta": 1,
+    "explicacion": "Permite apagar, reiniciar o cerrar sesión con parámetros."
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Qué es una máquina virtual?",
+    "opciones": [
+      "Un ordenador físico con varios discos",
+      "Un software que emula otro sistema operativo dentro de uno real",
+      "Un núcleo especializado",
+      "Un sistema de archivos especial"
+    ],
+    "correcta": 1,
+    "explicacion": "Una VM permite ejecutar un SO invitado en un anfitrión mediante emulación."
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Cuál de las siguientes es una ventaja de las máquinas virtuales?",
+    "opciones": [
+      "Requieren menos software",
+      "No necesitan CPU",
+      "Permiten probar otros SO sin alterar el sistema principal",
+      "No requieren RAM"
+    ],
+    "correcta": 2,
+    "explicacion": "Se pueden instalar sistemas aislados sin modificar el real."
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Cuál de estos software es un hipervisor?",
+    "opciones": [
+      "Word",
+      "VMware / VirtualBox",
+      "Paint",
+      "FileZilla"
+    ],
+    "correcta": 1,
+    "explicacion": "Los hipervisores gestionan máquinas virtuales."
+  },
+  {
+    "id": 31,
+    "pregunta": "Las licencias OEM...",
+    "opciones": [
+      "Se pueden transferir libremente entre equipos",
+      "Están ligadas al hardware con restricciones",
+      "Son de software libre",
+      "Permiten instalar en red sin límites"
+    ],
+    "correcta": 1,
+    "explicacion": "OEM se asocia a un equipo específico y no es transferible libremente."
+  },
+  {
+    "id": 32,
+    "pregunta": "Las licencias Retail...",
+    "opciones": [
+      "Son gratuitas",
+      "Se validan con un serial y pueden transferirse entre equipos",
+      "No requieren activación",
+      "Se ligan permanentemente al hardware"
+    ],
+    "correcta": 1,
+    "explicacion": "Retail permite reinstalación en otro equipo tras desactivar en el anterior."
+  },
+  {
+    "id": 33,
+    "pregunta": "Las licencias por volumen...",
+    "opciones": [
+      "Se venden una por cada equipo",
+      "Permiten usar una licencia para múltiples instalaciones en una organización",
+      "Son siempre gratuitas",
+      "No requieren gestión"
+    ],
+    "correcta": 1,
+    "explicacion": "Pensadas para empresas, facilitan la activación masiva."
+  },
+  {
+    "id": 34,
+    "pregunta": "Los sistemas operativos propietarios...",
+    "opciones": [
+      "Permiten modificar el código libremente",
+      "Requieren licencia para su uso",
+      "Son siempre gratuitos",
+      "Se distribuyen sin restricciones"
+    ],
+    "correcta": 1,
+    "explicacion": "Ejemplo: Windows, macOS requieren licencia y no son de código abierto."
+  },
+  {
+    "id": 35,
+    "pregunta": "Los sistemas operativos libres...",
+    "opciones": [
+      "No permiten modificaciones",
+      "Requieren activación por volumen",
+      "Tienen el código abierto y se pueden modificar",
+      "Son siempre de pago"
+    ],
+    "correcta": 2,
+    "explicacion": "GNU/Linux permite acceso y modificación de su código fuente."
+  },
+  {
+    "id": 36,
+    "pregunta": "Un sistema multiusuario requiere...",
+    "opciones": [
+      "Un único usuario a la vez",
+      "Varios usuarios compartiendo recursos simultáneamente",
+      "Interfaz solo gráfica",
+      "Un único procesador"
+    ],
+    "correcta": 1,
+    "explicacion": "Soporta sesiones concurrentes gestionando recursos y permisos."
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué función realiza la interfaz del sistema operativo?",
+    "opciones": [
+      "Conectar usuarios con hardware y servicios",
+      "Sustituir el kernel",
+      "Ejecutar código en anillos",
+      "Crear drivers automáticamente"
+    ],
+    "correcta": 0,
+    "explicacion": "Actúa como intermediaria entre el usuario y el núcleo."
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cuál es la estructura más antigua?",
+    "opciones": [
+      "Monolítica",
+      "Jerárquica",
+      "Cliente-servidor",
+      "Virtualizada"
+    ],
+    "correcta": 0,
+    "explicacion": "Los primeros SO eran monolíticos (todo en el núcleo)."
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué estructura divide el sistema en niveles que interactúan solo con superior/inferior?",
+    "opciones": [
+      "Jerárquica",
+      "Monolítica",
+      "En anillos",
+      "Cliente-servidor"
+    ],
+    "correcta": 0,
+    "explicacion": "Cada capa se comunica con la superior e inferior para modularidad."
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Cuál de estas clasificaciones se basa en el número de procesadores?",
+    "opciones": [
+      "Monotarea / multitarea",
+      "Uniprocesador / multiprocesador",
+      "Centralizado / distribuido",
+      "Monousuario / multiusuario"
+    ],
+    "correcta": 1,
+    "explicacion": "Distinguen entre sistemas con una sola CPU o varias trabajando en paralelo."
+  }
+]
+```[cite: 24, 25, 26, 27, 28, 29, 30]
+
+*(Nota: En la pregunta 26 he corregido la errata del OCR del PDF donde ponía `"ca"` por `"cd"`, tal como indica la explicación).*[cite: 28]

@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué es lo primero que hay que comprobar antes de instalar un sistema operativo?",
+    "opciones": [
+      "El fondo de pantalla que se va a usar",
+      "Que el equipo cumple los requisitos de hardware del fabricante",
+      "El número de usuarios que tendrá",
+      "La versión del navegador"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué cantidad mínima de memoria RAM pide Windows 10 de 64 bits?",
+    "opciones": [
+      "512 MB",
+      "1 GB",
+      "2 GB",
+      "8 GB"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué cantidad mínima de memoria RAM pide Windows 10 de 32 bits?",
+    "opciones": [
+      "4 GB",
+      "2 GB",
+      "512 MB",
+      "1 GB"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué velocidad mínima de procesador pide Windows 10?",
+    "opciones": [
+      "1 GHz",
+      "500 MHz",
+      "2 GHz",
+      "3 GHz"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué versión de DirectX debe soportar como mínimo la tarjeta gráfica para Windows 10?",
+    "opciones": [
+      "DirectX 7",
+      "DirectX 9",
+      "DirectX 11",
+      "DirectX 12"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 6,
+    "pregunta": "¿A qué usuarios va dirigida Windows 10 Home?",
+    "opciones": [
+      "A grandes empresas",
+      "A servidores",
+      "A usuarios domésticos",
+      "A centros de datos"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué versión de Windows 10 permite unir equipos a un dominio y está pensada para profesionales y pymes?",
+    "opciones": [
+      "Home",
+      "LTSC",
+      "S",
+      "Pro"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Cómo se consigue Windows 10 Enterprise?",
+    "opciones": [
+      "Solo con licencias por volumen",
+      "Viene con cualquier ordenador",
+      "Se descarga gratis",
+      "Solo en tiendas"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué caracteriza a Windows 10 LTSC?",
+    "opciones": [
+      "Es la versión para niños",
+      "Quita funciones como Cortana o Edge para ganar rendimiento",
+      "Solo funciona en tabletas",
+      "No recibe actualizaciones de seguridad"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué tipo de licencia suele venir unida a un equipo nuevo con Windows 10 Home?",
+    "opciones": [
+      "Licencia por volumen",
+      "Licencia libre GPL",
+      "Licencia OEM",
+      "Licencia de prueba"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué herramienta de Microsoft permite descargar la ISO de Windows 10 y preparar un USB de instalación?",
+    "opciones": [
+      "Sysprep",
+      "msinfo32",
+      "Windows PE",
+      "Media Creation Tool"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué capacidad mínima debe tener el USB para crear el instalador con Media Creation Tool?",
+    "opciones": [
+      "8 GB",
+      "1 GB",
+      "2 GB",
+      "64 GB"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 13,
+    "pregunta": "Para instalar desde un USB, ¿qué hay que configurar en la BIOS/UEFI?",
+    "opciones": [
+      "La hora del sistema",
+      "El orden de arranque (Boot), poniendo el USB en primer lugar",
+      "La contraseña de Windows",
+      "La resolución de pantalla"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué teclas se usan habitualmente para entrar en la BIOS al arrancar?",
+    "opciones": [
+      "Ctrl + C",
+      "Alt + F4",
+      "F10, F12 o Supr, según el fabricante",
+      "Windows + E"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Dónde se pueden instalar oficialmente los sistemas macOS?",
+    "opciones": [
+      "En cualquier PC con Intel",
+      "En servidores Linux",
+      "En portátiles HP",
+      "Solo en ordenadores Apple"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué combinación se pulsa al arrancar un Mac para acceder a la recuperación y reinstalar macOS?",
+    "opciones": [
+      "Comando + R",
+      "Ctrl + Alt + Supr",
+      "Comando + Q",
+      "Shift + F10"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Dónde se buscan las actualizaciones de Windows 10?",
+    "opciones": [
+      "En el Panel de control > Fuentes",
+      "En Configuración > Actualización y seguridad > Windows Update",
+      "En el Explorador de archivos",
+      "En el Administrador de tareas"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué herramienta de Windows sirve para cifrar el disco duro?",
+    "opciones": [
+      "Windows Defender",
+      "Sysprep",
+      "BitLocker",
+      "msinfo32"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué herramienta permite deshabilitar programas innecesarios que se inician al arrancar el sistema?",
+    "opciones": [
+      "Media Creation Tool",
+      "BitLocker",
+      "Panel de control > Fuentes",
+      "Administrador de tareas"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 20,
+    "pregunta": "¿En qué tipo de entornos se suele usar la instalación automatizada de sistemas operativos?",
+    "opciones": [
+      "En entornos corporativos y grandes organizaciones",
+      "Solo en equipos domésticos",
+      "Solo en móviles",
+      "En ningún caso, no existe"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Qué herramienta de Microsoft prepara un sistema para crear una imagen y desplegarla en otros equipos?",
+    "opciones": [
+      "msinfo32",
+      "Sysprep",
+      "Get-Counter",
+      "WMIC"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 22,
+    "pregunta": "¿En qué carpeta se encuentra Sysprep en Windows 10?",
+    "opciones": [
+      "C:\\Program Files\\Sysprep",
+      "C:\\Users\\Public\\Sysprep",
+      "C:\\Windows\\System32\\Sysprep",
+      "C:\\ProgramData\\Sysprep"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué datos elimina Sysprep del sistema?",
+    "opciones": [
+      "Las aplicaciones instaladas",
+      "La estructura de carpetas",
+      "La personalización del menú Inicio",
+      "Datos específicos del equipo, como el identificador de seguridad (SID)"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 24,
+    "pregunta": "En Sysprep, ¿cuándo hay que marcar la casilla Generalizar?",
+    "opciones": [
+      "Cuando la imagen se va a desplegar en equipos con hardware distinto",
+      "Nunca, es opcional siempre",
+      "Cuando el equipo no tiene red",
+      "Cuando se quiere borrar Windows"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué es Windows PE?",
+    "opciones": [
+      "Una versión de Windows para empresas",
+      "Una versión reducida de Windows para reparar el sistema o capturar y desplegar imágenes",
+      "Un antivirus",
+      "Un gestor de controladores"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué es un controlador o driver?",
+    "opciones": [
+      "Un tipo de virus",
+      "Un programa de ofimática",
+      "Un pequeño programa que permite al sistema comunicarse con un componente de hardware",
+      "Una carpeta del sistema"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Qué controlador se recomienda tener descargado antes de instalar el sistema operativo?",
+    "opciones": [
+      "El de la impresora",
+      "El del ratón",
+      "El del sonido",
+      "El de red"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Dónde se ven en Windows todos los componentes de hardware instalados?",
+    "opciones": [
+      "En el Administrador de dispositivos",
+      "En el Panel de control > Fuentes",
+      "En el Explorador de archivos",
+      "En Windows Update"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué dato del Administrador de dispositivos permite identificar el modelo de un componente desconocido?",
+    "opciones": [
+      "El nombre del usuario",
+      "El Id. de hardware",
+      "La fecha de instalación",
+      "La letra de la unidad"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Cuál es la carpeta del sistema de Windows?",
+    "opciones": [
+      "C:\\Program Files",
+      "C:\\Users",
+      "C:\\Windows\\System32",
+      "C:\\ProgramData"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Dónde se instalan normalmente los programas en Windows?",
+    "opciones": [
+      "C:\\Windows\\Fonts",
+      "C:\\Users\\Public",
+      "C:\\Windows\\System32",
+      "C:\\Program Files"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 32,
+    "pregunta": "¿En qué carpeta están las carpetas personales de los usuarios?",
+    "opciones": [
+      "C:\\Users\\Nombre_Usuario",
+      "C:\\Windows\\Users",
+      "C:\\Program Files\\Users",
+      "C:\\ProgramData\\Users"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué variable de entorno apunta a la carpeta de archivos temporales?",
+    "opciones": [
+      "%WINDIR%",
+      "%TEMP%",
+      "%APPDATA%",
+      "%PROGRAMDATA%"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué variable de entorno apunta a la carpeta del sistema operativo Windows?",
+    "opciones": [
+      "%TEMP%",
+      "%APPDATA%",
+      "%WINDIR%",
+      "%USERNAME%"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué comando abre la herramienta Información del sistema?",
+    "opciones": [
+      "ipconfig",
+      "tasklist",
+      "winver",
+      "msinfo32"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 36,
+    "pregunta": "En el caso práctico de Marta, ¿qué opción evita que las actualizaciones se apliquen mientras trabaja?",
+    "opciones": [
+      "Cambiar horas activas en Windows Update",
+      "Desinstalar Windows Update",
+      "Desactivar el antivirus",
+      "Apagar el ordenador por la mañana"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Desde dónde se ve la lista de programas instalados con herramientas gráficas?",
+    "opciones": [
+      "Desde el Administrador de dispositivos",
+      "Desde Panel de control > Programas > Desinstalar un programa",
+      "Desde msinfo32",
+      "Desde la BIOS"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 38,
+    "pregunta": "En el historial de Windows Update, ¿qué contienen las actualizaciones de calidad (Quality Updates)?",
+    "opciones": [
+      "Cambios grandes de versión del sistema",
+      "Nuevos fondos de pantalla",
+      "Parches que corrigen errores y vulnerabilidades",
+      "Controladores de impresora"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué herramienta sustituye a WMIC, que está obsoleta desde Windows 10 21H1?",
+    "opciones": [
+      "El símbolo del sistema cmd",
+      "Sysprep",
+      "Media Creation Tool",
+      "Windows PowerShell"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué cmdlet de PowerShell muestra los contadores de rendimiento del sistema?",
+    "opciones": [
+      "Get-Counter",
+      "Get-Process",
+      "Get-Service",
+      "Get-Help"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  }
+]
+```[cite: 43, 44, 45, 46, 47, 48]
+
+*(Nota: Como este PDF no incluye explicaciones debajo de cada pregunta[cite: 43, 44, 45, 46, 47, 48], he dejado el campo `"explicacion"` como cadena vacía `""` para mantener exactamente la misma estructura y que no te dé error al leerlo en tu HTML).*

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál es el objetivo principal del tema \"Explotación de aplicaciones\"?",
+    "opciones": [
+      "Diseñar hardware",
+      "Gestionar aplicaciones y licencias de software",
+      "Crear redes locales",
+      "Aprender ensamblador"
+    ],
+    "correcta": 1,
+    "explicacion": "El tema se centra en la instalación, actualización, licencias y mantenimiento de aplicaciones."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuál de los siguientes es un software de aplicación?",
+    "opciones": [
+      "Windows",
+      "LibreOffice Writer",
+      "Eclipse",
+      "Controlador de impresora"
+    ],
+    "correcta": 1,
+    "explicacion": "Los procesadores de texto como Word o LibreOffice Writer son software de aplicación."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál de los siguientes es un software de programación?",
+    "opciones": [
+      "MySQL Workbench",
+      "Visual Studio Code",
+      "Microsoft Word",
+      "Linux"
+    ],
+    "correcta": 1,
+    "explicacion": "Los editores de código e IDEs como VS Code forman parte del software de programación."
+  },
+  {
+    "id": 4,
+    "pregunta": "El software de sistema incluye:",
+    "opciones": [
+      "IDEs y compiladores",
+      "Procesadores de texto",
+      "Sistemas operativos y controladores",
+      "Clientes de correo"
+    ],
+    "correcta": 2,
+    "explicacion": "El software de sistema hace posible la comunicación entre hardware y software."
+  },
+  {
+    "id": 5,
+    "pregunta": "Los requisitos mínimos de un software aseguran:",
+    "opciones": [
+      "Un rendimiento óptimo",
+      "Que funcione correctamente",
+      "Que consuma menos memoria",
+      "Que tenga licencia libre"
+    ],
+    "correcta": 1,
+    "explicacion": "Los mínimos garantizan que la aplicación pueda ejecutarse."
+  },
+  {
+    "id": 6,
+    "pregunta": "Los requisitos recomendados de un software garantizan:",
+    "opciones": [
+      "Compatibilidad mínima",
+      "Menos errores de código",
+      "Rendimiento óptimo",
+      "Que sea libre"
+    ],
+    "correcta": 2,
+    "explicacion": "Los recomendados buscan un uso fluido, más allá del mínimo necesario."
+  },
+  {
+    "id": 7,
+    "pregunta": "Una licencia de software define:",
+    "opciones": [
+      "El precio de mercado",
+      "Los términos legales de uso",
+      "El manual de instalación",
+      "El hardware compatible"
+    ],
+    "correcta": 1,
+    "explicacion": "La licencia establece condiciones de uso, modificación y distribución."
+  },
+  {
+    "id": 8,
+    "pregunta": "Un ejemplo de software con licencia propietaria es:",
+    "opciones": [
+      "Linux",
+      "LibreOffice",
+      "Microsoft Office",
+      "MySQL"
+    ],
+    "correcta": 2,
+    "explicacion": "Office requiere licencia propietaria, no da acceso al código fuente."
+  },
+  {
+    "id": 9,
+    "pregunta": "Un ejemplo de software libre es:",
+    "opciones": [
+      "Windows",
+      "Adobe Photoshop",
+      "LibreOffice",
+      "macOS"
+    ],
+    "correcta": 2,
+    "explicacion": "LibreOffice permite copiar, modificar y distribuir libremente."
+  },
+  {
+    "id": 10,
+    "pregunta": "Las licencias de cliente se aplican a:",
+    "opciones": [
+      "Servidores con múltiples usuarios",
+      "Dispositivos individuales",
+      "Redes de área local",
+      "Bases de datos corporativas"
+    ],
+    "correcta": 1,
+    "explicacion": "Están pensadas para software en ordenadores de sobremesa o portátiles."
+  },
+  {
+    "id": 11,
+    "pregunta": "Las licencias de servidor se usan para:",
+    "opciones": [
+      "Un solo ordenador",
+      "Ejecutar aplicaciones en servidores con múltiples usuarios",
+      "Diseñar interfaces",
+      "Antivirus personales"
+    ],
+    "correcta": 1,
+    "explicacion": "Sirven para permitir múltiples conexiones simultáneas."
+  },
+  {
+    "id": 12,
+    "pregunta": "Antes de instalar una aplicación, debemos comprobar:",
+    "opciones": [
+      "Los manuales de usuario",
+      "Los requisitos mínimos y recomendados",
+      "El tiempo de carga",
+      "El color del logo"
+    ],
+    "correcta": 1,
+    "explicacion": "Verificar requisitos evita incompatibilidades o mal rendimiento."
+  },
+  {
+    "id": 13,
+    "pregunta": "En Windows, los instaladores suelen tener la extensión:",
+    "opciones": [
+      ".dmg",
+      ".exe o .msi",
+      ".deb",
+      ".sh"
+    ],
+    "correcta": 1,
+    "explicacion": "Los instaladores típicos de Windows son .exe o .msi."
+  },
+  {
+    "id": 14,
+    "pregunta": "En macOS, los instaladores suelen tener la extensión:",
+    "opciones": [
+      ".exe",
+      ".dmg",
+      ".rpm",
+      ".bat"
+    ],
+    "correcta": 1,
+    "explicacion": "Los .dmg se montan como discos virtuales en macOS."
+  },
+  {
+    "id": 15,
+    "pregunta": "En Linux, para instalar aplicaciones se pueden usar:",
+    "opciones": [
+      "Archivos .exe",
+      "Archivos .deb o .rpm",
+      "Archivos .pptx",
+      "Archivos .xls"
+    ],
+    "correcta": 1,
+    "explicacion": "Los paquetes .deb y .rpm son formatos habituales en Linux."
+  },
+  {
+    "id": 16,
+    "pregunta": "Para desinstalar una aplicación en Windows se usa:",
+    "opciones": [
+      "App Store",
+      "Panel de Control",
+      "TeamViewer",
+      "BIOS"
+    ],
+    "correcta": 1,
+    "explicacion": "Desde \"Programas y características\" se gestionan desinstalaciones."
+  },
+  {
+    "id": 17,
+    "pregunta": "En macOS, para desinstalar basta con:",
+    "opciones": [
+      "Usar el terminal",
+      "Arrastrar la aplicación a la papelera",
+      "Panel de control",
+      "Reinstalar el sistema"
+    ],
+    "correcta": 1,
+    "explicacion": "En macOS, basta con mover la aplicación a la papelera."
+  },
+  {
+    "id": 18,
+    "pregunta": "En Linux, para desinstalar se usa normalmente:",
+    "opciones": [
+      "BIOS",
+      "Un script en Python",
+      "Comandos en terminal",
+      "El explorador de archivos"
+    ],
+    "correcta": 2,
+    "explicacion": "Se suelen usar comandos como apt-get remove o yum remove."
+  },
+  {
+    "id": 19,
+    "pregunta": "Una instalación desatendida es aquella que:",
+    "opciones": [
+      "Requiere supervisión constante",
+      "Se ejecuta sin intervención del usuario",
+      "Solo funciona en servidores",
+      "Es más lenta"
+    ],
+    "correcta": 1,
+    "explicacion": "Se lanza una sola vez y se completa sola."
+  },
+  {
+    "id": 20,
+    "pregunta": "Una ventaja de las instalaciones desatendidas es:",
+    "opciones": [
+      "Requieren menos licencias",
+      "Consumen más recursos",
+      "Reducen errores humanos",
+      "No permiten automatización"
+    ],
+    "correcta": 2,
+    "explicacion": "Evitan errores al aplicar siempre la misma configuración."
+  },
+  {
+    "id": 21,
+    "pregunta": "Un fichero de respuestas en Windows suele tener extensión:",
+    "opciones": [
+      ".exe",
+      ".xml o .ini",
+      ".bat",
+      ".dll"
+    ],
+    "correcta": 1,
+    "explicacion": "Estos ficheros contienen configuraciones para la instalación automática."
+  },
+  {
+    "id": 22,
+    "pregunta": "En Linux, las instalaciones desatendidas pueden hacerse con:",
+    "opciones": [
+      "Archivos .exe",
+      "Ficheros .dmg",
+      "Scripts de shell",
+      "Archivos .iso"
+    ],
+    "correcta": 2,
+    "explicacion": "Se usan scripts bash para automatizar procesos."
+  },
+  {
+    "id": 23,
+    "pregunta": "Un paquete .msi en Windows sirve para:",
+    "opciones": [
+      "Clonar discos",
+      "Instalar aplicaciones",
+      "Crear particiones",
+      "Comprimir archivos"
+    ],
+    "correcta": 1,
+    "explicacion": "Los .msi son paquetes de instalación de Windows."
+  },
+  {
+    "id": 24,
+    "pregunta": "Un paquete .mst en Windows es:",
+    "opciones": [
+      "Un antivirus",
+      "Una transformación de un .msi",
+      "Un tipo de licencia",
+      "Un archivo multimedia"
+    ],
+    "correcta": 1,
+    "explicacion": "Personaliza la instalación modificando un paquete .msi."
+  },
+  {
+    "id": 25,
+    "pregunta": "Un paquete .msp se utiliza para:",
+    "opciones": [
+      "Instalar drivers",
+      "Actualizar software",
+      "Crear máquinas virtuales",
+      "Editar bases de datos"
+    ],
+    "correcta": 1,
+    "explicacion": "Los .msp son parches de instalación."
+  },
+  {
+    "id": 26,
+    "pregunta": "Una herramienta para instalaciones desatendidas en red de Microsoft es:",
+    "opciones": [
+      "SCCM",
+      "VMware",
+      "GitHub",
+      "Chrome"
+    ],
+    "correcta": 0,
+    "explicacion": "SCCM administra instalaciones en entornos corporativos."
+  },
+  {
+    "id": 27,
+    "pregunta": "Una herramienta de Symantec para gestionar instalaciones es:",
+    "opciones": [
+      "WSUS",
+      "Altiris",
+      "Docker",
+      "Python"
+    ],
+    "correcta": 1,
+    "explicacion": "Altiris permite gestión y automatización de instalaciones."
+  },
+  {
+    "id": 28,
+    "pregunta": "Actualizar software mejora principalmente:",
+    "opciones": [
+      "La estética",
+      "La seguridad y rendimiento",
+      "El tamaño de archivos",
+      "El número de usuarios"
+    ],
+    "correcta": 1,
+    "explicacion": "Las actualizaciones corrigen errores, vulnerabilidades y añaden mejoras."
+  },
+  {
+    "id": 29,
+    "pregunta": "En Windows, las actualizaciones se gestionan con:",
+    "opciones": [
+      "App Store",
+      "Windows Update",
+      "apt-get",
+      "Google Play"
+    ],
+    "correcta": 1,
+    "explicacion": "Windows Update es la herramienta oficial de Microsoft."
+  },
+  {
+    "id": 30,
+    "pregunta": "En macOS, las actualizaciones se hacen desde:",
+    "opciones": [
+      "BIOS",
+      "Panel de Control",
+      "App Store",
+      "Finder"
+    ],
+    "correcta": 2,
+    "explicacion": "En macOS, las actualizaciones pasan por la App Store."
+  },
+  {
+    "id": 31,
+    "pregunta": "En Linux, las actualizaciones se realizan con:",
+    "opciones": [
+      "BIOS",
+      "Gestores como apt o yum",
+      "Panel de control",
+      "TeamViewer"
+    ],
+    "correcta": 1,
+    "explicacion": "apt (Debian/Ubuntu) o yum (RedHat/Fedora) son los gestores de paquetes."
+  },
+  {
+    "id": 32,
+    "pregunta": "Un servidor de actualizaciones automáticas en Windows es:",
+    "opciones": [
+      "Altiris",
+      "SCCM",
+      "WSUS",
+      "RDP"
+    ],
+    "correcta": 2,
+    "explicacion": "WSUS distribuye actualizaciones en redes corporativas."
+  },
+  {
+    "id": 33,
+    "pregunta": "El primer paso para resolver incidencias es:",
+    "opciones": [
+      "Identificación del problema",
+      "Documentación",
+      "Verificación",
+      "Implementación de la solución"
+    ],
+    "correcta": 0,
+    "explicacion": "Primero hay que recopilar información del fallo."
+  },
+  {
+    "id": 34,
+    "pregunta": "Una herramienta de administración remota para Windows es:",
+    "opciones": [
+      "RDP",
+      "SSH",
+      "AnyDesk",
+      "BIOS"
+    ],
+    "correcta": 0,
+    "explicacion": "RDP es el protocolo de escritorio remoto de Microsoft."
+  },
+  {
+    "id": 35,
+    "pregunta": "Una herramienta de administración remota típica en Linux es:",
+    "opciones": [
+      "RDP",
+      "SSH",
+      "CCleaner",
+      "FileZilla"
+    ],
+    "correcta": 1,
+    "explicacion": "SSH es el estándar en sistemas Unix/Linux para acceso remoto seguro."
+  },
+  {
+    "id": 36,
+    "pregunta": "Un ejemplo de herramienta de terceros para administración remota es:",
+    "opciones": [
+      "Windows Update",
+      "TeamViewer",
+      "SCCM",
+      "WSUS"
+    ],
+    "correcta": 1,
+    "explicacion": "TeamViewer permite control remoto multiplataforma."
+  },
+  {
+    "id": 37,
+    "pregunta": "Los manuales de instalación sirven para:",
+    "opciones": [
+      "El marketing del software",
+      "Mejorar gráficos",
+      "Guiar en la instalación y configuración",
+      "Cambiar el hardware"
+    ],
+    "correcta": 2,
+    "explicacion": "Documentan el proceso paso a paso para evitar errores."
+  },
+  {
+    "id": 38,
+    "pregunta": "Una herramienta ofimática es:",
+    "opciones": [
+      "Microsoft Word",
+      "Wireshark",
+      "Eclipse",
+      "SCCM"
+    ],
+    "correcta": 0,
+    "explicacion": "Word es un procesador de texto dentro de la ofimática."
+  },
+  {
+    "id": 39,
+    "pregunta": "Una herramienta de productividad es:",
+    "opciones": [
+      "Photoshop",
+      "Trello",
+      "Windows Defender",
+      "Clonezilla"
+    ],
+    "correcta": 1,
+    "explicacion": "Trello organiza proyectos y tareas colaborativas."
+  },
+  {
+    "id": 40,
+    "pregunta": "Un ejemplo de utilidad de propósito general es:",
+    "opciones": [
+      "Outlook",
+      "Windows Server",
+      "7-Zip",
+      "WSUS"
+    ],
+    "correcta": 2,
+    "explicacion": "7-Zip es un compresor gratuito y de propósito general."
+  }
+]

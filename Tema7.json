@@ -1,0 +1,485 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿En qué sistema están basados la mayoría de los sistemas operativos libres, como Linux y BSD?",
+    "opciones": [
+      "Windows NT",
+      "UNIX",
+      "MS-DOS",
+      "Android"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuál de estas es una característica de la arquitectura UNIX?",
+    "opciones": [
+      "Es monousuario",
+      "Solo funciona en un tipo de hardware",
+      "Es multitarea y multiusuario",
+      "No tiene sistema de archivos"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Cuál es una ventaja de la línea de comandos frente a la interfaz gráfica?",
+    "opciones": [
+      "Es más bonita",
+      "No necesita teclado",
+      "Consume más recursos",
+      "Permite automatizar tareas con scripts"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Qué comando muestra la ruta completa del directorio actual?",
+    "opciones": [
+      "pwd",
+      "ls",
+      "cd",
+      "dir"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué comando crea un archivo vacío?",
+    "opciones": [
+      "mkdir",
+      "touch",
+      "rm",
+      "cat"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Qué comando crea un directorio nuevo?",
+    "opciones": [
+      "touch",
+      "rmdir",
+      "mkdir",
+      "cd"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Qué comando elimina un directorio vacío?",
+    "opciones": [
+      "rm",
+      "del",
+      "mkdir",
+      "rmdir"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué comando crea el usuario pepito en Ubuntu?",
+    "opciones": [
+      "sudo adduser pepito",
+      "sudo newuser pepito",
+      "sudo mkuser pepito",
+      "sudo user pepito"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Qué comando establece o cambia la contraseña del usuario pepito?",
+    "opciones": [
+      "sudo pass pepito",
+      "sudo passwd pepito",
+      "sudo password pepito",
+      "sudo chpass pepito"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué comando crea un grupo nuevo llamado amigos?",
+    "opciones": [
+      "sudo usermod amigos",
+      "sudo mkgroup amigos",
+      "sudo groupadd amigos",
+      "sudo group amigos"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué comando añade el usuario pepito al grupo amigos sin quitarle sus otros grupos?",
+    "opciones": [
+      "sudo groupadd pepito amigos",
+      "sudo chgrp amigos pepito",
+      "sudo adduser -g amigos",
+      "sudo usermod -aG amigos pepito"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Qué comando cambia el nombre del grupo amigos a vecinos?",
+    "opciones": [
+      "sudo groupmod -n vecinos amigos",
+      "sudo usermod -aG vecinos amigos",
+      "sudo groupadd vecinos",
+      "sudo rename amigos vecinos"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué comando elimina el usuario pepito?",
+    "opciones": [
+      "sudo deluser -g pepito",
+      "sudo userdel pepito",
+      "sudo rm pepito",
+      "sudo groupdel pepito"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué comando elimina el grupo vecinos?",
+    "opciones": [
+      "sudo userdel vecinos",
+      "sudo rmdir vecinos",
+      "sudo groupdel vecinos",
+      "sudo delete vecinos"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Qué UID tiene siempre el usuario root?",
+    "opciones": [
+      "1000",
+      "1",
+      "100",
+      "0"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Qué usuario predeterminado usan los procesos de servicio que se ejecutan en segundo plano?",
+    "opciones": [
+      "daemon",
+      "root",
+      "users",
+      "guest"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Para qué sirve el grupo sudo en Ubuntu?",
+    "opciones": [
+      "Para que los usuarios no puedan iniciar sesión",
+      "Para que sus miembros puedan ejecutar comandos como superusuario con sudo",
+      "Para guardar los archivos temporales",
+      "Para gestionar la batería"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Qué grupo controla tradicionalmente quién puede usar el comando su para pasar a root?",
+    "opciones": [
+      "users",
+      "daemon",
+      "wheel",
+      "sys"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 19,
+    "pregunta": "¿Qué herramienta gestiona automáticamente el ahorro de energía en portátiles con Linux?",
+    "opciones": [
+      "rsync",
+      "cron",
+      "GParted",
+      "TLP"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Qué herramienta muestra qué componentes consumen más energía y propone cómo reducir el consumo?",
+    "opciones": [
+      "Powertop",
+      "Unison",
+      "lsblk",
+      "auditd"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 21,
+    "pregunta": "¿En qué fichero se ajusta la configuración de TLP?",
+    "opciones": [
+      "/etc/passwd",
+      "/etc/tlp.conf",
+      "/home/tlp",
+      "/var/log/tlp"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 22,
+    "pregunta": "¿Qué herramienta permite una sincronización bidireccional de archivos entre dos ubicaciones?",
+    "opciones": [
+      "rsync",
+      "TLP",
+      "Unison",
+      "fdisk"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué comando cambia los permisos de un archivo o directorio?",
+    "opciones": [
+      "chown",
+      "chgrp",
+      "passwd",
+      "chmod"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Qué comando cambia el propietario de un archivo?",
+    "opciones": [
+      "chown",
+      "chmod",
+      "chgrp",
+      "usermod"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué permisos da el modo 700 a un directorio?",
+    "opciones": [
+      "Lectura para todos",
+      "Todos los permisos solo al propietario y ninguno a grupo y otros",
+      "Ningún permiso a nadie",
+      "Todos los permisos a todos"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 26,
+    "pregunta": "¿Qué permisos da el modo 755?",
+    "opciones": [
+      "Solo lectura para todos",
+      "Todo para todos",
+      "Todo al propietario, y lectura y ejecución a grupo y otros",
+      "Solo ejecución al propietario"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Con qué comando se edita de forma segura el fichero sudoers?",
+    "opciones": [
+      "nano /etc/sudoers",
+      "vi /etc/passwd",
+      "sudo edit",
+      "visudo"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 28,
+    "pregunta": "¿Por qué es más seguro usar sudo que iniciar sesión como root?",
+    "opciones": [
+      "Porque queda registro de los comandos y se pide la contraseña del usuario",
+      "Porque sudo no puede borrar archivos",
+      "Porque root no tiene permisos",
+      "Porque sudo es más rápido"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Qué dice el principio de mínimo privilegio?",
+    "opciones": [
+      "Que todos los usuarios deben ser administradores",
+      "Que cada usuario o servicio tenga solo los permisos que necesita",
+      "Que no se deben usar contraseñas",
+      "Que root nunca debe existir"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Qué demonio de Unix permite programar tareas para que se ejecuten automáticamente a horas concretas?",
+    "opciones": [
+      "auditd",
+      "TLP",
+      "cron",
+      "rsync"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Cuál es la alternativa moderna a cron basada en systemd?",
+    "opciones": [
+      "Unison",
+      "Deja Dup",
+      "Puppet",
+      "systemd timers"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Qué herramienta gráfica permite crear, borrar y redimensionar particiones?",
+    "opciones": [
+      "GParted",
+      "lsblk",
+      "fdisk",
+      "auditd"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Qué comando muestra información de todos los dispositivos de bloques (discos y particiones)?",
+    "opciones": [
+      "fdisk -x",
+      "lsblk",
+      "ls /home",
+      "df -users"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Qué es LUKS?",
+    "opciones": [
+      "Una herramienta de copias de seguridad",
+      "Un gestor de paquetes",
+      "El estándar de cifrado de discos en Linux",
+      "Un demonio de auditoría"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué herramienta cifra directorios concretos, como el home de un usuario?",
+    "opciones": [
+      "LUKS",
+      "TLP",
+      "rsnapshot",
+      "eCryptfs"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Qué es auditd?",
+    "opciones": [
+      "El demonio de auditoría que registra eventos de seguridad en Linux",
+      "Un editor de textos",
+      "Un gestor de energía",
+      "Un programa de copias de seguridad"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Qué herramienta busca y analiza los registros generados por auditd?",
+    "opciones": [
+      "aureport",
+      "ausearch",
+      "visudo",
+      "cron"
+    ],
+    "correcta": 1,
+    "explicacion": ""
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Qué permiten las listas de control de acceso (ACL)?",
+    "opciones": [
+      "Borrar usuarios automáticamente",
+      "Cifrar el disco",
+      "Dar permisos más detallados a varios usuarios y grupos sobre un mismo recurso",
+      "Programar tareas"
+    ],
+    "correcta": 2,
+    "explicacion": ""
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Qué herramienta de automatización usa ficheros YAML llamados playbooks y no necesita agentes en los equipos gestionados?",
+    "opciones": [
+      "Puppet",
+      "cron",
+      "Deja Dup",
+      "Ansible"
+    ],
+    "correcta": 3,
+    "explicacion": ""
+  },
+  {
+    "id": 40,
+    "pregunta": "En Ubuntu, ¿qué comando instala las versiones más recientes de los paquetes ya instalados?",
+    "opciones": [
+      "sudo apt-get upgrade",
+      "sudo apt-get update",
+      "sudo apt-get autoremove",
+      "sudo dnf install"
+    ],
+    "correcta": 0,
+    "explicacion": ""
+  }
+]
+```[cite: 55, 56, 57, 58, 59, 60]
+
+*(Nota: Como en el tema anterior, he corregido los fallos de lectura del OCR donde aparecía `Is` o `Isblk` por `ls` y `lsblk` en las preguntas 4, 20, 32 y 33).*
